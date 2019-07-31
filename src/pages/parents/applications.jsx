@@ -1,6 +1,6 @@
 import React from "react";
 import NewApplicationBtn from "../../assets/images/newapplicationsbtn.svg";
-import Table from "../../components/table/Table";
+import ApplicationList from "../../components/table/ApplicationList";
 
 const Application = () => {
   return (
@@ -19,7 +19,7 @@ const Application = () => {
         </div>
       </div>
 
-      <Table />
+      <ApplicationList />
     </div>
   );
 };

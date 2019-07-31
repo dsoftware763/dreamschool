@@ -1,8 +1,8 @@
 import React from "react";
-import NewApplicationBtn from "../../assets/images/newapplicationsbtn.svg";
+import { Link } from "react-router-dom"
 import ImageActiveA from "../../assets/images/imgactivea.png";
 
-const Table = () => {
+const ApplicationList = () => {
   return (
     <div className="cont">
       <div className="tablecont">
@@ -52,7 +52,7 @@ const Table = () => {
                 <td>Jan 1 - Oct 1 2019</td>
                 <td>Jan 23, 2019</td>
                 <td>
-                  <a href="">VIEW</a>
+                  <Link to="/parents/applications/view" href="">VIEW</Link>
                 </td>
               </tr>
               <tr>
@@ -62,7 +62,7 @@ const Table = () => {
                 <td>Jan 1 - Oct 1 2019</td>
                 <td>Jan 23, 2019</td>
                 <td>
-                  <a href="">VIEW</a>
+                  <Link to="/parents/applications/view" href="">VIEW</Link>
                 </td>
               </tr>
               <tr>
@@ -72,7 +72,7 @@ const Table = () => {
                 <td>Jan 1 - Oct 1 2019</td>
                 <td>Jan 23, 2019</td>
                 <td>
-                  <a href="">VIEW</a>
+                  <Link to="/parents/applications/view" href="">VIEW</Link>
                 </td>
               </tr>
             </tbody>
@@ -83,4 +83,4 @@ const Table = () => {
   );
 };
 
-export default Table
+export default ApplicationList

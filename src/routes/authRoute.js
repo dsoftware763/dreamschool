@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
 
-const ParentRoute = ({ component: Component, isAuthenticated, parent, to, ...rest }) => (
+const AuthRoute = ({ component: Component, isAuthenticated,  to, ...rest }) => (
   <Route
     {...rest}
     render={props =>
-      (isAuthenticated && parent) ? (
-            <Component {...props} />
+      isAuthenticated ? (
+        <Component {...props} />
       ) : (
         <Redirect
           to={{
@@ -20,15 +20,15 @@ const ParentRoute = ({ component: Component, isAuthenticated, parent, to, ...res
   />
 );
 
-ParentRoute.propTypes = {
+AuthRoute.propTypes = {
   component: PropTypes.oneOfType([PropTypes.func, PropTypes.object]).isRequired,
   isAuthenticated: PropTypes.bool.isRequired,
   location: PropTypes.object,
   to: PropTypes.string,
 };
 
-ParentRoute.defaultProps = {
+AuthRoute.defaultProps = {
   to: '/',
 };
 
-export default ParentRoute;
+export default AuthRoute;

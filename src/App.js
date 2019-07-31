@@ -1,10 +1,10 @@
 import React from 'react';
-import { Switch, Router } from 'react-router-dom';
+import { Switch, Router, Route } from 'react-router-dom';
 import history from './modules/history';
 import AdminRoute from './routes/adminRoute';
-import ParentRoute from './routes/parentRoute';
+import AuthRoute from './routes/authRoute';
 import Admin from './pages/admin';
-import Parent from './pages/parent';
+import ParentLayout from './components/parents/ParentLayout';
 
 function App() {
   return (
@@ -17,12 +17,13 @@ function App() {
               path="/admin"
               component={Admin}
             />
-            <ParentRoute
+            
+            <AuthRoute
               isAuthenticated={true}
-              parent={true}
               path="/parents"
-              component={Parent}
+              component={ParentLayout}
             />
+           
             {/* <Route component={NotFound} /> */}
         </Switch>
        </Router>

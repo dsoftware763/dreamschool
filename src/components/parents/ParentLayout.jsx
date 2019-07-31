@@ -11,6 +11,7 @@ import PaymentMethods from '../../pages/parents/paymentMethods';
 import AccountSettings from '../../pages/parents/accountSettings';
 import Application from '../../pages/parents/applications';
 import InterestedPrograms from '../../pages/parents/interestedPrograms';
+import NewApplication from '../../pages/parents/newApplication';
 
 const ParentLayout = (props) => {
     const {path} = props.match
@@ -62,6 +63,12 @@ const ParentLayout = (props) => {
                     exact
                     path="/parents/interested-programs"
                     component={InterestedPrograms}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/interested-programs/new"
+                    component={NewApplication}
                 />
             </div>
            

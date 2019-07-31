@@ -154,6 +154,7 @@ const Topbar = () => {
               <div className="bluecircletop"></div>
             </a>
           </li>
+          <div className="topbar-divider d-none d-sm-block"></div>
           <li className="nav-item dropdown no-arrow">
               <a className="nav-link dropdown-toggle nameofc" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img className="img-profile rounded-circle" src={keisha}/>

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Redirect, Switch } from 'react-router-dom';
 
-const ParentRoute = ({ component: Component, isAuthenticated, parent, to, ...rest }) => (
+const ParentRoute = ({ component: Component, parent, to, ...rest }) => (
   <Switch>
   <Route
     {...rest}
@@ -14,7 +14,7 @@ const ParentRoute = ({ component: Component, isAuthenticated, parent, to, ...res
         <Redirect
           to={{
             pathname: to,
-            state: { redirect: props.location.pathname, isAuthenticated },
+            state: { redirect: props.location.pathname, parent },
           }}
         />
       )
@@ -26,7 +26,7 @@ const ParentRoute = ({ component: Component, isAuthenticated, parent, to, ...res
 
 ParentRoute.propTypes = {
   component: PropTypes.oneOfType([PropTypes.func, PropTypes.object]).isRequired,
-  isAuthenticated: PropTypes.bool.isRequired,
+  parent: PropTypes.bool.isRequired,
   location: PropTypes.object,
   to: PropTypes.string,
 };

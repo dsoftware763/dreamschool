@@ -5,7 +5,8 @@ import '../admin/css/sb-admin-2.min.css';
 import SideMenu from './SideMenu';
 import Topbar from './Topbar';
 import ParentRoute from '../../routes/parentRoute';
-import Parent from '../../pages/parent';
+import Home from '../../pages/parents/home';
+import Calendar from '../../pages/parents/calendar';
 
 const ParentLayout = (props) => {
     const {path} = props.match
@@ -21,11 +22,18 @@ const ParentLayout = (props) => {
            {/* Main Content */}
             <div id="content">
                 <Topbar/>
+
                 <ParentRoute
-                    isAuthenticated={true}
                     parent={true}
-                    path="/"
-                    component={Parent}
+                    exact
+                    path="/parents"
+                    component={Home}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/calendar"
+                    component={Calendar}
                 />
             </div>
            

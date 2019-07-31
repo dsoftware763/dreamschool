@@ -1,14 +1,9 @@
 import React from 'react';
-import LineChart from '../components/charts/Line';
-import DoughnutChart from '../components/charts/Doughnut';
-import Earning from '../components/admin/Earning';
-import Projects from '../components/admin/Projects';
-import undrawPosting from '../assets/images/undraw_posting_photo.svg';
-import arrowleftbox from '../assets/images/arrowleftbox.svg';
-import ddicon from '../assets/images/ddicon.svg';
-import arrowdownselect from '../assets/images/arrowdownselect.svg';
-import checkimg from '../assets/images/checkimg.svg';
-import child1 from '../assets/images/child1.png';
+import arrowleftbox from '../../assets/images/arrowleftbox.svg';
+import ddicon from '../../assets/images/ddicon.svg';
+import arrowdownselect from '../../assets/images/arrowdownselect.svg';
+import checkimg from '../../assets/images/checkimg.svg';
+import child1 from '../../assets/images/child1.png';
 
 const Parent = () => {
     return (

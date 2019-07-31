@@ -1,7 +1,7 @@
 import React from 'react';
 import imgofbank from '../../assets/images/imgofbank.png';
 
-const Parent = () => {
+const PaymentMethods = () => {
     return (
       // <!-- Begin Page Content -->
       <div className="container-fluid paymentmethod">
@@ -64,4 +64,4 @@ const Parent = () => {
     );
 }
 
-export default Parent;
+export default PaymentMethods;

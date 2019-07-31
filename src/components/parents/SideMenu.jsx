@@ -27,10 +27,10 @@ const SideMenu = () => {
           <img src={PaymentMethods} alt="payment"/>
           <span>Payment Methods</span>
       	</Link>
-        <a className="nav-link" href="index.html">
+        <Link className="nav-link" to="/parents/account-settings">
           <img src={AccountSettings} alt="account"/>
           <span>Account Settings</span>
-      	</a>
+      	</Link>
       </li>
 
       {/* <!-- Divider --> */}

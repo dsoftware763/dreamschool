@@ -2,7 +2,7 @@ import React from 'react';
 import Calendar from '../../components/calendar/Calendar';
 import UpcomingEvents from '../../components/calendar/UpcomingEvents';
 
-const Parent = () => {
+const CalendarBox = () => {
     return (
       // <!-- Begin Page Content -->
       <div className="container-fluid calendarcf">
@@ -14,4 +14,4 @@ const Parent = () => {
     );
 }
 
-export default Parent;
+export default CalendarBox;

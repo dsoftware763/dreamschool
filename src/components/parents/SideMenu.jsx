@@ -27,10 +27,10 @@ const SideMenu = () => {
           <img src={PaymentMethods} alt="payment"/>
           <span>Payment Methods</span>
       	</Link>
-        <a className="nav-link" href="index.html">
+        <Link className="nav-link" to="/parents/account-settings">
           <img src={AccountSettings} alt="account"/>
           <span>Account Settings</span>
-      	</a>
+      	</Link>
       </li>
 
       {/* <!-- Divider --> */}
@@ -43,10 +43,10 @@ const SideMenu = () => {
 
       {/* <!-- Nav Item - Dashboard --> */}
       <li className="nav-item active">
-        <a className="nav-link" href="index.html">
+        <Link className="nav-link" to="/parents/interested-programs">
           <img src={intprog} alt=""/>
           <span>Interested Programs</span>
-      	</a>
+      	</Link>
         <a className="nav-link" href="/parents/applications">
           <img src={applicationsicon} alt=""/>
           <span>Applications</span>

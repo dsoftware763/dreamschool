@@ -13,6 +13,8 @@ import Application from '../../pages/parents/applications';
 import ApplicationView from '../../pages/parents/application-view';
 import InterestedPrograms from '../../pages/parents/interestedPrograms';
 import NewApplication from '../../pages/parents/newApplication';
+import TuitionPayments from '../../pages/parents/tuitionPayments';
+import TuitionPaymentsDetails from '../../pages/parents/tuitionPaymentsDetails'
 
 const ParentLayout = (props) => {
     const {path} = props.match
@@ -76,6 +78,18 @@ const ParentLayout = (props) => {
                     exact
                     path="/parents/applications/view"
                     component={ApplicationView}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/tuition-payments"
+                    component={TuitionPayments}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/tuition-payments/view"
+                    component={TuitionPaymentsDetails}
                 />
             </div>
            

@@ -51,7 +51,7 @@ const SideMenu = () => {
           <img src={applicationsicon} alt=""/>
           <span>Applications</span>
       	</a>
-        <a className="nav-link" href="index.html">
+        <a className="nav-link" href="/parents/tuition-payments">
           <img src={PaymentMethods} alt=""/>
           <span>Tuition Payments</span>
       	</a>

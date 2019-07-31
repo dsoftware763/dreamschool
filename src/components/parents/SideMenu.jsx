@@ -47,7 +47,7 @@ const SideMenu = () => {
           <img src={intprog} alt=""/>
           <span>Interested Programs</span>
       	</a>
-        <a className="nav-link" href="index.html">
+        <a className="nav-link" href="/parents/applications">
           <img src={applicationsicon} alt=""/>
           <span>Applications</span>
       	</a>

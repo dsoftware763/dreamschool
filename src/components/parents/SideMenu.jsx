@@ -19,14 +19,14 @@ const SideMenu = () => {
         </div>    
         {/* <!-- Nav Item - Dashboard --> */}
       <li className="nav-item active">
-        <a className="nav-link" href="index.html">
+        <Link className="nav-link" to="/parents/family-profile">
           <img src={FamilyProfile} alt="family"/>
           <span>Family Profile</span>
-      	</a>
-        <a className="nav-link" href="index.html">
+      	</Link>
+        <Link className="nav-link" to="/parents/payment-methods">
           <img src={PaymentMethods} alt="payment"/>
           <span>Payment Methods</span>
-      	</a>
+      	</Link>
         <a className="nav-link" href="index.html">
           <img src={AccountSettings} alt="account"/>
           <span>Account Settings</span>

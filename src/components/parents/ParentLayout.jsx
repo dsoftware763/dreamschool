@@ -7,6 +7,7 @@ import Topbar from './Topbar';
 import ParentRoute from '../../routes/parentRoute';
 import Home from '../../pages/parents/home';
 import Calendar from '../../pages/parents/calendar';
+import PaymentMethods from '../../pages/parents/paymentMethods';
 
 const ParentLayout = (props) => {
     const {path} = props.match
@@ -34,6 +35,12 @@ const ParentLayout = (props) => {
                     exact
                     path="/parents/calendar"
                     component={Calendar}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/payment-methods"
+                    component={PaymentMethods}
                 />
             </div>
            

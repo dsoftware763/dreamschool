@@ -2752,6 +2752,27 @@
         position: relative;
         z-index: 1;
         margin-bottom: 25px; }
+      .new_application_3 .cont .contbox .body .rightside .wraper .select .select {
+        width: 100%;
+        background: transparent;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #777777;
+        border-radius: 0;
+        border: 1px solid #707070;
+        padding: 8px 15px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 25px; }
+        .new_application_3 .cont .contbox .body .rightside .wraper .select .react-datepicker__input-container,
+        .new_application_3 .cont .contbox .body .rightside .wraper .select .react-datepicker-wrapper{
+          width: 100%
+        }
       .new_application_3 .cont .contbox .body .rightside .wraper .select select:focus {
         outline: none; }
 

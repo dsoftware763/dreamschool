@@ -13,6 +13,9 @@ import Application from '../../pages/parents/applications';
 import ApplicationView from '../../pages/parents/application-view';
 import InterestedPrograms from '../../pages/parents/interestedPrograms';
 import NewApplication from '../../pages/parents/newApplication';
+import ChooseChild from '../../pages/parents/chooseChild';
+import FileApplication from '../../pages/parents/fileApplication';
+import ConfirmApplication from '../../pages/parents/confirmApplication';
 import TuitionPayments from '../../pages/parents/tuitionPayments';
 import TuitionPaymentsDetails from '../../pages/parents/tuitionPaymentsDetails'
 
@@ -72,6 +75,24 @@ const ParentLayout = (props) => {
                     exact
                     path="/parents/interested-programs/new"
                     component={NewApplication}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/interested-programs/choose-child"
+                    component={ChooseChild}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/interested-programs/step3"
+                    component={FileApplication}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/interested-programs/confirm"
+                    component={ConfirmApplication}
                 />
                 <ParentRoute
                     parent={true}

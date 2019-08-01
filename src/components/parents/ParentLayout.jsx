@@ -14,7 +14,10 @@ import ApplicationView from '../../pages/parents/application-view';
 import InterestedPrograms from '../../pages/parents/interestedPrograms';
 import NewApplication from '../../pages/parents/newApplication';
 import TuitionPayments from '../../pages/parents/tuitionPayments';
-import TuitionPaymentsDetails from '../../pages/parents/tuitionPaymentsDetails'
+import TuitionPaymentsDetails from '../../pages/parents/tuitionPaymentsDetails';
+import MyEnrollments from '../../pages/parents/myEnrollments';
+import MyEnrollmentDetails from '../../pages/parents/myEnrollmentDetails';
+import MyEnrollmentEnd from '../../pages/parents/myEnrollmentEnd';
 
 const ParentLayout = (props) => {
     const {path} = props.match
@@ -90,6 +93,24 @@ const ParentLayout = (props) => {
                     exact
                     path="/parents/tuition-payments/view"
                     component={TuitionPaymentsDetails}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/my-enrollments"
+                    component={MyEnrollments}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/my-enrollments/view"
+                    component={MyEnrollmentDetails}
+                />
+                <ParentRoute
+                    parent={true}
+                    exact
+                    path="/parents/my-enrollments/end"
+                    component={MyEnrollmentEnd}
                 />
             </div>
            

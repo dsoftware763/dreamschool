@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="540.825" height="66.434" viewBox="0 0 540.825 66.434">
+  <defs>
+    <filter id="Rectangle_1128" x="0" y="0" width="540.825" height="66.434" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_896" data-name="Group 896" transform="translate(-306 -210.253)">
+    <g transform="matrix(1, 0, 0, 1, 306, 210.25)" filter="url(#Rectangle_1128)">
+      <rect id="Rectangle_1128-2" data-name="Rectangle 1128" width="522.825" height="48.434" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="10.027" cy="10.027" rx="10.027" ry="10.027" transform="translate(332.503 249.2) rotate(-90)" fill="#1bc88a"/>
+    <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="10.027" cy="10.027" rx="10.027" ry="10.027" transform="translate(429.002 249.2) rotate(-90)" fill="#ff6763"/>
+    <text id="Active" transform="translate(368.363 243.282)" fill="#1bc88a" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Active</tspan></text>
+    <text id="Expiring" transform="translate(464.56 243.701)" fill="#ff6763" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Expiring</tspan></text>
+    <text id="Pending" transform="translate(572.164 243.65)" fill="#f9a41e" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Pending</tspan></text>
+    <text id="My_Child" data-name="My Child" transform="translate(673.881 243.697)" fill="#b7b7b7" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">My Child</tspan></text>
+    <text id="Unfilled" transform="translate(779.766 243.697)" fill="#b7b7b7" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Unfilled</tspan></text>
+    <ellipse id="Ellipse_67" data-name="Ellipse 67" cx="10.027" cy="10.027" rx="10.027" ry="10.027" transform="translate(536.976 249.2) rotate(-90)" fill="#f9a41e"/>
+    <ellipse id="Ellipse_68" data-name="Ellipse 68" cx="10.027" cy="10.027" rx="10.027" ry="10.027" transform="translate(644.192 249.2) rotate(-90)" fill="#b7b7b7"/>
+    <g id="Ellipse_69" data-name="Ellipse 69" transform="translate(750.077 249.2) rotate(-90)" fill="#fff" stroke="#707070" stroke-width="1">
+      <ellipse cx="10.027" cy="10.027" rx="10.027" ry="10.027" stroke="none"/>
+      <ellipse cx="10.027" cy="10.027" rx="9.527" ry="9.527" fill="none"/>
+    </g>
+  </g>
+</svg>

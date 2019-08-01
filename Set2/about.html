@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Dreamschools</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/logo-0bd37af2db7f225f6208be5a6112b1ebbd75ed937970c7d7a1d782be1c92c2bc.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fX3z5JAO8LR/WpQPSejJA0A0SNiJ9IELB4fa6hmrwjLRtqAAP8YsM718XBFTd8apvpjM4Gkp0QqIDLmVjq6tPA==" />
+    <script>
+//<![CDATA[
+window.gon={};
+//]]>
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="all" href="assets/application-ed80cdc88a0b95f5df8b044f28a6e87c1e16e2f19f6f99c1e2ca71a61ec02fb0.css" data-turbolinks-track="reload" />
+    <script src="assets/application-3f351101cf30000ba7af054d0ddaf717b051d887e2cb0489bc4a51cf5b049b92.js" data-turbolinks-track="reload"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather" rel="stylesheet">
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyDVNuWNguQz4vB25OdDpztwxE3QR_CzG0g"></script>
+    <script src="../cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
+    <script src="../cdn.rawgit.com/printercu/google-maps-utility-library-v3-read-only/master/infobox/src/infobox_packed.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="fixed-header">
+  <nav class="navbar navbar-default custom-navbar" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="col-lg-4">
+      <div class="navbar-header">
+        <a href="index.html"><img class="school-logo" src="assets/redesign-logo-3ec7948f85dc727c7d5d95fef8eecedba36e0cdc64d315d342c8f855227cb772.png" alt="Redesign logo" /></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="col-lg-8" style="float:initial">
+      <div class="collapse navbar-collapse flex-important" id="bs-example-navbar-collapse-1">
+        <!--      <div class="flex">-->
+          <div class="col-lg-6">
+            <div class="search-header">
+              <form id="search_form" class="search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+                <input type="text" name="q" id="q" placeholder="Search by name, address, or keyword" />
+                <!--          <input type="text" placeholder="Search by name, address, or keyword">-->
+                <button type="submit"><img src="img/searchicon.png" alt=""></button>
+</form>            </div>
+          </div>
+        <!-- </form> -->
+        <div class="col-lg-6 right" style="margin-left:auto; float:initial">
+          <ul class="nav navbar-nav navbar-right custom-right-navbar">
+            <li><span class="glyphicon glyphicon-th-list my-toggle"></span></li>
+              <li><a href="about.html">About</a></li>
+                <li><a href="search.html">Find</a></li>
+              <!-- <li><a href="/partner" class="nav-link">Provide</a></li> -->
+              <li><a href="partner.html">Provide</a></li>
+              <li><a class="nav-link" href="users/sign-in.html">Log in</a></li>
+                <li><a class="nav-link" href="users/sign-up.html">Family Sign Up</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div><!-- /.navbar-collapse -->
+  </nav>
+  <div class="desktop-menu">
+    <ul class="desktop-menu-list">
+        <li><a href="about.html">About</a></li>
+          <li><a href="search.html">Find</a></li>
+        <li><a href="partner.html">Provide</a></li>
+
+    </ul>
+  </div>
+
+</header>
+
+
+<script>
+    $(document).ready(function () {
+        $(".my-toggle").click(function () {
+            $(".desktop-menu").toggle();
+        });
+    });
+</script>
+    <script type="text/javascript">
+  // setTimeout(function() {
+  //   $('.automatic_fadeout').fadeOut();
+  // }, 4000);
+</script>
+    <div id="page-content" class="">
+      <div class="container-fluid aboutushero">
+  <img src="img/aboutusheroimg.png" class="imghero" alt="">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>About Us</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid seccontabu">
+  <img src="img/imgrightside.png" class="imgrightside" alt="">
+  <div class="container" style="margin-top: 70px;">
+    <div class="maxwidthbox">
+      <div class="row">
+        <div class="col-md-6" style="padding: 0;">
+          <img src="img/imgab2.png" class="img-responsive" alt="">
+        </div>
+        <div class="col-md-6">
+          <div class="aboutusparagrapshafterhero">
+            Dreamschools provides parents with affordable, high-quality preschools and
+            educational activities, while offering early childhood educators with the
+            support they need to provide care and education in their homes & communities.
+          </div>
+
+          <div>
+            <div class="rowbox">
+              <img src="img/abicon1.png" alt="">
+              <h1>Connecting parents </h1>
+              <p>with quality child care providers and educators in their area</p>
+            </div>
+            <div class="rowbox">
+              <img src="img/abicon2.png" alt="">
+              <h1>Beautifully curated website </h1>
+              <p>showcasing each educational program</p>
+            </div>
+            <div class="rowbox">
+              <img src="img/abicon3.png" alt="">
+              <h1>Access to a suite of tools </h1>
+              <p>to simplify the enrollment process</p>
+            </div>
+            <div class="rowbox">
+              <img src="img/abicon4.png" alt="">
+              <h1>Support and training </h1>
+              <p>to launch and manage your business</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<img src="img/whybgtopside.png" class="whybgtopside" alt="">
+<div class="container-fluid abwhy">
+  <div class="container flex-column">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Why we started Dreamschools</h1>
+      </div>
+    </div>
+    <div class="maxwidthbox">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Our team is a group of technologists, community
+            organizers, care providers, and educators. </p>
+
+          <p>We created Dreamschools to help substantially expand access to high-quality preschools for all
+            families.</p>
+        </div>
+        <div class="col-md-6 rightside">
+          <p>Too many families in Ontario are anxious and nervous about finding affordable, high-quality preschools
+            close to home</p>
+
+          <p>Too many parents are having to choose between pursuing their careers and finding child care and educational
+            programs</p>
+
+          <p>The wait lists for preschools are long, and the cost for child care and activities can be exorbitant</p>
+        </div>
+      </div>
+      <div class="row btns">
+        <div class="col-md-12">
+          <p class="btnfind"><a href="search.html">Find a Dreamschool</a></p>
+          <p class="btnreg"><a href="partner.html">Register Preschool</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<img src="img/whybtmside.png" class="whybtmside" alt="">
+
+
+
+<div class="container-fluid parents">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 leftside">
+
+        <div class="col-lg-2"></div>
+        <div class="col-lg-10">
+          <h1>Parents</h1>
+          <div class="paragraph">
+            <h2>Are you looking for an affordable, high-quality preschool, child care provider, or activity close to
+              your
+              home?</h2>
+            <!--        <div class="crta"></div>-->
+
+            <div class="parent-descript">Dreamschools provides an all-in-one platform that helps you find affordable and
+              reviewed childcare and educational activities close to your home or work.
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-10">
+            <h3>CONVENIENTLY FIND PROGRAMS IN YOUR AREA</h3>
+          </div>
+          <div class="col-lg-2">
+            <img src="img/about-16.png" class="icon" alt="">
+          </div>
+          <div class="col-lg-10">
+            <p>Search for quality child care and educational programs in your neighbourhood</p>
+            <p>Get upfront pricing and availability</p>
+            <p>Be the first to see new programs opening up in your area</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-10">
+            <h3>SAVE TIME AND MONEY</h3>
+          </div>
+          <div class="col-lg-2">
+            <img src="img/about-17.png" class="icon" alt="">
+          </div>
+          <div class="col-lg-10">
+            <p>Schedule tours and get to know your childcare expert </p>
+            <p>Apply to many programs without all the repetitive paperwork</p>
+            <p>Convenient and automatic payment options</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-10">
+            <h3>OVERSEE YOUR CHILD'S EDUCATIONAL EXPERIENCE</h3>
+          </div>
+          <div class="col-lg-2">
+            <img src="img/about-18.png" class="icon" alt="">
+          </div>
+          <div class="col-lg-10">
+            <p>Align your child’s needs with program teaching methodologies </p>
+            <p>Low child to caregiver ratio so your child gets the attention they deserve</p>
+          </div>
+        </div>
+
+        <!--        <div class="box">-->
+        <!--          <img src="/img/FinalIcons-10.png" class="icon" alt="">-->
+        <!--          <h3>Save time and money</h3>-->
+        <!--          <p>Schedule tours and get to know your childcare expert </p>-->
+        <!--          <p>Apply to many programs without all the repetitive paperwork</p>-->
+        <!--          <p>Convenient and automatic payment options</p>-->
+
+        <!--        </div>-->
+
+        <!--        <div class="box">-->
+        <!--          <img src="/img/FinalIcons-12.png" class="icon" alt="">-->
+        <!--          <h3>Oversee your child’s educational experience</h3>-->
+        <!--          <p>Align your child’s needs with program teaching methodologies </p>-->
+        <!--          <p>Low child to caregiver ratio so your child gets the attention they deserve</p>-->
+        <!--        </div>-->
+      </div>
+      <div class="col-lg-6 rightside">
+
+        <div class="col-lg-2"></div>
+        <div class="col-lg-10">
+          <h1>Early childhood educators</h1>
+          <div class="paragraph">
+            <h2>Do you want to start your own preschool or educational program?</h2>
+            <!--        <div class="crta"></div>-->
+
+            <div class="parent-descript">Dreamschool works with you to start and mange your own child care or
+              educational program. From
+              program design, to marketing, to payments, and everything in between, we are here to help.
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-10">
+            <h3>LAUNCH YOUR PROGRAM</h3>
+          </div>
+          <div class="col-lg-2">
+            <img src="img/about-19.png" class="icon" alt="">
+          </div>
+          <div class="col-lg-10">
+            <p>Step-by-step guidelines to set up your business</p>
+            <p>1-on-1 mentorship with a childcare expert</p>
+            <p>Beautifully curated website showcasing your program</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-10">
+            <h3>FILL YOUR CLASSROOM</h3>
+          </div>
+          <div class="col-lg-2">
+            <img src="img/about-20.png" class="icon" alt="">
+          </div>
+          <div class="col-lg-10">
+            <p>Data-driven methods to maximize classroom occupancy</p>
+            <p>Pricing model to maximize your earnings</p>
+            <p>Use evidence-based program design to deliver enriching learning experiences</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-10">
+            <h3>SIMPLIFY YOUR DAY</h3>
+          </div>
+          <div class="col-lg-2">
+            <img src="img/about-21.png" class="icon" alt="">
+          </div>
+          <div class="col-lg-10">
+            <p>Manage enrollments with ease</p>
+            <p>Worry-free invoicing and payment collection</p>
+            <p>Easy-to-use tools to manage your day-to-day activities</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-lg-6 leftside no-border">
+    <h4>Secure a spot for your child</h4>
+    <div class="btns">
+      <p class="btnfind"><a href="search.html">Find a Dreamschool</a></p>
+    </div>
+  </div>
+  <div class="col-lg-6 rightside">
+    <h4>Partner with us</h4>
+    <div class="btns">
+      <p class="btnreg"><a href="partner.html">Register Program</a></p>
+    </div>
+  </div>
+</div>
+
+<!--    <div class="line"></div>-->
+<!--</div>-->
+
+
+<div class="container-fluid slidercf">
+  <img src="img/sliderbg.png" class="bgleft" alt="">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Dreamschools Gallery</h1>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/sliderimg1.png" alt="">
+              <p> Valerie has been a partner at Dreamschools for 8 months. <br>
+                This is her home daycare, Little Hearts School.</p>
+            </div>
+
+            <div class="item">
+              <img src="img/sliderimg2.jpg" alt="">
+              <p> Shazia has been a partner at Dreamschools for 6 months. <br>
+                This is her home daycare, Little Tots Daycare.</p>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="leftarrow" href="#myCarousel" data-slide="prev">
+            <img src="img/leftarrow.png" alt="">
+          </a>
+          <a class="rightarrow" href="#myCarousel" data-slide="next">
+            <img src="img/rightarrow.png" alt="">
+          </a>
+        </div>
+
+        <div class="line"></div>
+      </div>p
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid bstoggle" id="">
+  <a class="anchor" id="FAQ"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Commonly asked questions</h1>
+        <div class="maxwidthbox">
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Why choose us?</a>
+                </h4>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body">Educators partnering with Dreamschools are given the opportunity to become
+                  business owners while receiving all of the tools and support they need to run the program of their
+                  dreams, while having the freedom to keep their focus on the children. Families who choose Dreamschools
+                  enjoy quality childcare solutions from our hand-picked providers in a home-like environment, that is
+                  affordable and convenient.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">How do I get started?</a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">For Educators, reach out to Dreamschools, go through our background checks, set
+                  up your program, get listed, and start enrolling! For Families, find and tour programs, create an
+                  application, manage waitlist, get accepted, and start loving life!
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What are the benefits of home
+                    child care?</a>
+                </h4>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">It’s a Home away from Home! Dreamschools programs offer smaller group sizes,
+                  closer bonds between the Educator and families, affordable solutions, and individualized attention and
+                  care.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <!--<footer class="col-md-12 col-sm-12 col-xs-12 section_page_footer">-->
+<!--   <div class="custom_content_width_constraint">-->
+<!--      <div class="custom_grid Grid--full ">-->
+<!--         <div class="Grid-cell">-->
+<!--            <div>-->
+<!--               <div class="section_page_footer_link_list_title">Dreamschools Near You</div>               -->
+<!--               <br>-->
+<!--               <a class="new-link link_blend" href="#">Calgary</a>-->
+<!--               <br>-->
+<!--               <a class="new-link link_blend" href="#">Albert</a> -->
+<!--            </div>-->
+<!--         </div>-->
+<!--         <div class="Grid-cell">-->
+<!--            <div>-->
+<!--               <div class="section_page_footer_link_list_title">Follow Us</div>-->
+<!--               <a class="new-link link_blend" href="#" >Blog</a>-->
+<!--               <br>-->
+<!--               <a class="new-link link_blend" href="#">Facebook</a>-->
+<!--            </div>-->
+<!--         </div>-->
+<!--         <div class="Grid-cell">-->
+<!--            <div>-->
+<!--               <div class="section_page_footer_link_list_title">Contact</div>-->
+<!--               <br>-->
+<!--               <span class="section_page_footer_link_list_title">Address:-->
+<!--                <p class="new-link link_blend">-->
+<!--                  Centre for Social Innovation<br>-->
+<!--                  585 Dundas St. East, Toronto-->
+<!--                </p>-->
+<!--               </span>-->
+<!--            </div>-->
+<!--         </div>-->
+<!--         <div class="Grid-cell">-->
+<!--            <div>-->
+<!--               <div class="section_page_footer_link_list_title">Dreamschools</div>-->
+<!--               <br>-->
+<!--               <br>-->
+<!--               <br>-->
+<!--               <br>-->
+<!--            </div>-->
+<!--         </div>-->
+<!--        <div class="Grid-cell"><a class="new-link " href=""><button class="button button_arrow  button_outline_blue" type="button">Partner with Dreamschools</button></a></div> -->
+<!--      </div>-->
+<!--   </div>-->
+<!--</footer>-->
+
+<!--<div></div>-->
+<!--<div class="footer container-fluid">-->
+<!--  <img src="/img/footerbg.png" class="bgimg" alt="">-->
+<!--  <div class="profile-container">-->
+<!--    <div class="row">-->
+<!--      <div class="col-lg-5">-->
+
+<!--      </div>-->
+<!--      <div class="col-lg-7">-->
+<!--        <div class="row">-->
+<!--          <div class="col-md-4">-->
+<!--            <div class="mail">-->
+<!--              <p>email.address@dreamschools.com</p>-->
+<!--            </div>-->
+
+<!--            <div class="location">-->
+<!--              <p>Centre for Social Innovation</p>-->
+<!--              <p><span>585 Dundas St. East, Toronto</span></p>-->
+<!--            </div>-->
+<!--            <div class="follow">-->
+<!--              <h4>Follow Us</h4>-->
+<!--              <a href=""><img src="/img/footerinstagram.png" alt=""></a>-->
+<!--              <a href=""><img src="/img/footerfb.png" alt=""></a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="col-md-4 Dreamschools">-->
+<!--            <h4>Dreamschools</h4>-->
+<!--            <div class="maxwidthforlist">-->
+<!--              <div class="row">-->
+<!--                <div class="col-md-6">-->
+<!--                  <ul>-->
+<!--                    <li><a href="">About Us</a></li>-->
+<!--                    <li><a href="">Jobs</a></li>-->
+<!--                    <li><a href="">FAQ</a></li>-->
+<!--                  </ul>-->
+<!--                </div>-->
+<!--                <div class="col-md-6">-->
+<!--                  <ul>-->
+<!--                    <li><a href="">Terms of Use</a></li>-->
+<!--                    <li><a href="">Privacy</a></li>-->
+<!--                  </ul>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="col-md-4 locationsdiv">-->
+<!--            <div>-->
+<!--              <h4>Locations</h4>-->
+<!--              <ul>-->
+<!--                <li>Toronto, ON  |  Mississauga, ON</li>-->
+<!--                <li>Hamilton, ON  |  Oakville, ON  </li>-->
+<!--                <li>Brampton, ON  |  Vaughan, ON  </li>-->
+<!--                <li>Richmond Hill, ON  |  Markham, ON  </li>-->
+<!--                <li>Pickering, ON  |  Ajax, ON  </li>-->
+<!--                <li>Oshawa, ON  |  Peterborough, ON</li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div class="footer container-fluid" style="display: flex; line-height: 1.42857143">
+  <img src="img/footerbg.png" class="bgimg" alt="">
+  <div class="container" style="    padding-right: 0;
+      padding-left: 0; margin-bottom:20px; max-width:initial;">
+    <div class="row" style="width:100%;     margin-right: -15px;
+        margin-left: -15px;">
+      <div class="col-lg-5">
+
+      </div>
+      <div class="col-lg-7">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="mail">
+              <p>contact@dreamschools.com</p>
+            </div>
+
+            <div class="location">
+              <p>Centre for Social Innovation</p>
+              <p><span>192 Spadina Ave, Toronto</span></p>
+            </div>
+            <div class="follow">
+              <span style="margin-right:10px;font-weight:bold;font-size:14px;">Follow Us</span>
+              <a href="#"><img src="img/footerinstagram.png" alt=""></a>
+              <a href="#"><img src="img/footerfb.png" alt=""></a>
+              <a href="#"><img src="img/twitter_icon.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-md-4 Dreamschools">
+            <h4>Dreamschools</h4>
+            <div class="maxwidthforlist">
+              <div class="row">
+                <div class="col-md-5">
+                  <ul>
+                    <li><a href=about.html>About Us</a></li>
+                    <li><a href=teachers/new.html>Jobs</a></li>
+                    <li><a href="#">FAQ</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-7">
+                  <ul>
+                    <li><a href=terms-of-use.html>Terms of Use</a></li>
+                    <li><a href=privacy-policy.html>Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 locationsdiv">
+            <div>
+              <h4>Locations</h4>
+              <div class="locationmaxw">
+                <div class="row" style="margin-right: -15px;
+                    margin-left: -15px;">
+                  <div class="col-xs-6">
+                    <ul>
+                      <li>Toronto, ON  </li>
+                      <li>Hamilton, ON  </li>
+                      <li>Brampton, ON  </li>
+                      <li>Richmond Hill, ON  </li>
+                      <li>Pickering, ON    </li>
+                      <li>Oshawa, ON  </li>
+                    </ul>
+                  </div>
+                  <div class="col-xs-6">
+                    <ul>
+                      <li>Mississauga, ON</li>
+                      <li>Oakville, ON  </li>
+                      <li>Vaughan, ON  </li>
+                      <li>Markham, ON  </li>
+                      <li>Ajax, ON  </li>
+                      <li>Peterborough, ON</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+
+</html>
+
+

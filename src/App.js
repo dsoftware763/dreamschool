@@ -8,6 +8,7 @@ import ParentLayout from './components/parents/ParentLayout';
 import RoutePublic from './routes/routePublic';
 import Home from './pages/front/home';
 import About from './pages/front/about';
+import Educator from './pages/front/educator';
 
 function App() {
   return (
@@ -37,6 +38,12 @@ function App() {
               path="/about"
               exact
               component={About}
+            />
+            <RoutePublic
+              isAuthenticated={false}
+              path="/educator"
+              exact
+              component={Educator}
             />
 
             {/* <Route component={NotFound} /> */}

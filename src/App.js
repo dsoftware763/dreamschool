@@ -10,6 +10,7 @@ import Home from './pages/front/home';
 import About from './pages/front/about';
 import Educator from './pages/front/educator';
 import Search from './pages/front/search';
+import Partner from './pages/front/partner'
 
 function App() {
   return (
@@ -51,6 +52,12 @@ function App() {
               path="/search"
               exact
               component={Search}
+            />
+            <RoutePublic
+              isAuthenticated={false}
+              path="/partner"
+              exact
+              component={Partner}
             />
 
             {/* <Route component={NotFound} /> */}

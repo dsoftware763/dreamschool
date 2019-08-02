@@ -10,11 +10,13 @@ import PricingPlans from "../../pages/educator/pricingPlans";
 import TourRequests from "../../pages/educator/tourRequests";
 
 const EducatorLayout = props => {
-  const { path } = props.match;
+  require("../admin/css/sb-admin-2.css")
   require("./css/educator.css");
+
 
   return (
     <div className="educator">
+		
 		<SideBar />
       	<div id="content-wrapper" className="d-flex flex-column">
         	<div id="content">

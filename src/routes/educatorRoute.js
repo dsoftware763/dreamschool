@@ -9,6 +9,7 @@ const EducatorRoute = ({ component: Component, educator, to, ...rest }) => (
     
     render={props =>
       (educator) ? (
+        
             <Component {...props} />
       ) : (
         <Redirect

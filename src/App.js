@@ -6,10 +6,15 @@ import AuthRoute from './routes/authRoute';
 import Admin from './pages/admin';
 import ParentLayout from './components/parents/ParentLayout';
 import EducatorLayout from './components/educator/EducatorLayout'
+import RoutePublic from './routes/routePublic';
+import Home from './pages/front/home';
+import About from './pages/front/about';
+import Educator from './pages/front/educator';
+import Search from './pages/front/search';
 
 function App() {
   return (
-    <div id="wrapper">
+
        <Router history={history}>
         <Switch>
             <AdminRoute
@@ -30,10 +35,35 @@ function App() {
               path="/educator"
               component={EducatorLayout}
             />
+            <RoutePublic
+              isAuthenticated={false}
+              path="/"
+              exact
+              component={Home}
+            />
+            <RoutePublic
+              isAuthenticated={false}
+              path="/about"
+              exact
+              component={About}
+            />
+            <RoutePublic
+              isAuthenticated={false}
+              path="/educator"
+              exact
+              component={Educator}
+            />
+            <RoutePublic
+              isAuthenticated={false}
+              path="/search"
+              exact
+              component={Search}
+            />
+
             {/* <Route component={NotFound} /> */}
         </Switch>
        </Router>
-    </div>
+   
   );
 }
 

@@ -1,6 +1,4 @@
 import React from 'react';
-import './css/all.min.css';
-import './css/sb-admin-2.min.css';
 import Sidebar from '../common/Sidebar';
 import Topbar from './Topbar';
 import Footer from './Footer';
@@ -8,6 +6,11 @@ import LogoutModal from './LogoutModal';
 import SideMenu from './SideMenu';
 const AdminLayout = (props) => {
     const {path} = props.match
+   
+    if(path === '/admin') {
+        require( './css/all.min.css');
+        require('./css/sb-admin-2.css');
+    }
     return (<>
 
         <Sidebar path={path} Menu={SideMenu}/>

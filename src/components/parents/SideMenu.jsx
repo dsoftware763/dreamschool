@@ -47,21 +47,21 @@ const SideMenu = () => {
           <img src={intprog} alt=""/>
           <span>Interested Programs</span>
       	</Link>
-        <a className="nav-link" href="/parents/applications">
+        <Link className="nav-link" to="/parents/applications">
           <img src={applicationsicon} alt=""/>
           <span>Applications</span>
-      	</a>
-        <a className="nav-link" href="/parents/tuition-payments">
+      	</Link>
+        <Link className="nav-link" to="/parents/tuition-payments">
           <img src={PaymentMethods} alt=""/>
           <span>Tuition Payments</span>
-      	</a>
-      	 <a className="nav-link" href="/parents/my-enrollments">
+      	</Link>
+      	 <Link className="nav-link" to="/parents/my-enrollments">
       	  <img src={myenroll} alt=""/>
       	  <span>My Enrollments</span>
-      	</a>
+      	</Link>
       </li>
       <div className="logoutbtn">
-			<a href="">Log Out</a>
+			<a href="#">Log Out</a>
 			<img src={logoutbg} alt=""/>
 		</div>
 

@@ -5,6 +5,7 @@ import AdminRoute from './routes/adminRoute';
 import AuthRoute from './routes/authRoute';
 import Admin from './pages/admin';
 import ParentLayout from './components/parents/ParentLayout';
+import EducatorLayout from './components/educator/EducatorLayout'
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
               component={ParentLayout}
             />
            
+            <AuthRoute
+              isAuthenticated={true}
+              path="/educator"
+              component={EducatorLayout}
+            />
             {/* <Route component={NotFound} /> */}
         </Switch>
        </Router>

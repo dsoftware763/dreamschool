@@ -163,7 +163,7 @@ const MyEnrollmentDetailsModal = () => {
                     </div>
                     <div className="col-5 parent">
                       <div className="selectdiv">
-                        <a href="" className="selected">
+                        <a href="#" className="selected">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="13.754"
@@ -214,7 +214,7 @@ const MyEnrollmentDetailsModal = () => {
               <div className="rightside">
                 <div className="wraper">
                   <h2>Days of the week</h2>
-                  <div class="select">
+                  <div className="select">
                     <img src={SelectArrow} alt="" />
                     <select>
                       <option value="0">Monday, Wednesday</option>

@@ -5,9 +5,9 @@ import AmountArrow from "../../assets/images/amountarrow.svg"
 
 const TuitionPaymentsDetails = () => {
   return (
-    <div class="container-fluid tuition_payments">
-      <div class="row">
-        <div class="col-md-12">
+    <div className="container-fluid tuition_payments">
+      <div className="row">
+        <div className="col-md-12">
           <h1>
             <Link to="/parents/tuition-payments">
               <img src={AmountArrow} alt="" />

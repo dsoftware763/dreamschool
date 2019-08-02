@@ -9,25 +9,25 @@ const ApplicationList = () => {
         <div className="table-responsive">
           <ul>
             <li className="active">
-              <a href="">
+              <a href="#">
                 <img src={ImageActiveA} className="foractive" alt="" />
                 PENDING RESPONSE
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="#">
                 <img src={ImageActiveA} className="foractive" alt="" />
                 ACCEPTED
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="#">
                 <img src={ImageActiveA} className="foractive" alt="" />
                 WAITLISTED
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="#">
                 <img src={ImageActiveA} className="foractive" alt="" />
                 REJECTED
               </a>
@@ -52,7 +52,7 @@ const ApplicationList = () => {
                 <td>Jan 1 - Oct 1 2019</td>
                 <td>Jan 23, 2019</td>
                 <td>
-                  <Link to="/parents/applications/view" href="">VIEW</Link>
+                  <Link to="/parents/applications/view" href="#">VIEW</Link>
                 </td>
               </tr>
               <tr>
@@ -62,7 +62,7 @@ const ApplicationList = () => {
                 <td>Jan 1 - Oct 1 2019</td>
                 <td>Jan 23, 2019</td>
                 <td>
-                  <Link to="/parents/applications/view" href="">VIEW</Link>
+                  <Link to="/parents/applications/view" href="#">VIEW</Link>
                 </td>
               </tr>
               <tr>
@@ -72,7 +72,7 @@ const ApplicationList = () => {
                 <td>Jan 1 - Oct 1 2019</td>
                 <td>Jan 23, 2019</td>
                 <td>
-                  <Link to="/parents/applications/view" href="">VIEW</Link>
+                  <Link to="/parents/applications/view" href="#">VIEW</Link>
                 </td>
               </tr>
             </tbody>

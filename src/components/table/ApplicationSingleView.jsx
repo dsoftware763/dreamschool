@@ -146,7 +146,7 @@ const ApplicationSingleView = () => {
                     <h2>CONTACTS</h2>
                   </div>
                   <div className="col-md-8 col-12">
-                    <a href="" className="active">
+                    <a href="#" className="active">
                       Parent / Guardian #1
                     </a>
                     <a href="#">#2</a>

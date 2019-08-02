@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import footerbg from '../../assets/images/footerbg.png';
 import footerinstagram from '../../assets/images/footerinstagram.png';
 import footerfb from '../../assets/images/footerfb.png';
@@ -35,7 +36,7 @@ const Footer = () => {
                                     <div className="row">
                                         <div className="col-md-5">
                                             <ul>
-                                                <li><a href="#">About Us</a></li>
+                                                <li><Link to="/about">About Us</Link></li>
                                                 <li><a href="#">Jobs</a></li>
                                                 <li><a href="#">FAQ</a></li>
                                             </ul>

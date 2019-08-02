@@ -1,7 +1,5 @@
 import React from 'react';
 import Sidebar from '../common/Sidebar';
-import '../admin/css/all.min.css'
-import '../admin/css/sb-admin-2.min.css';
 import SideMenu from './SideMenu';
 import Topbar from './Topbar';
 import ParentRoute from '../../routes/parentRoute';
@@ -26,6 +24,8 @@ const ParentLayout = (props) => {
     const {path} = props.match
    
     if(path === '/parents') {
+        require('../admin/css/all.min.css');
+        require('../admin/css/sb-admin-2.css');
         require('./css/parent_css.css');
     }
     return (<>

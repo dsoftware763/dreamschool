@@ -8,9 +8,11 @@ const AdminRoute = ({ component: Component, isAuthenticated, admin, to, ...rest 
     {...rest}
     render={props =>
       (isAuthenticated && admin) ? (
+        <div id="wrapper">
           <AdminLayout {...props}>
             <Component {...props} />
           </AdminLayout>
+          </div>
       ) : (
         <Redirect
           to={{

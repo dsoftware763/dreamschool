@@ -5,10 +5,11 @@ import AdminRoute from './routes/adminRoute';
 import AuthRoute from './routes/authRoute';
 import Admin from './pages/admin';
 import ParentLayout from './components/parents/ParentLayout';
-
+import RoutePublic from './routes/routePublic';
+import Home from './pages/front/home';
 function App() {
   return (
-    <div id="wrapper">
+
        <Router history={history}>
         <Switch>
             <AdminRoute
@@ -23,11 +24,17 @@ function App() {
               path="/parents"
               component={ParentLayout}
             />
-           
+            <RoutePublic
+              isAuthenticated={false}
+              path="/"
+              exact
+              component={Home}
+            />
+
             {/* <Route component={NotFound} /> */}
         </Switch>
        </Router>
-    </div>
+   
   );
 }
 

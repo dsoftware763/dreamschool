@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Route, Redirect } from 'react-router-dom';
+import React from "react";
+import PropTypes from "prop-types";
+import { Route, Redirect } from "react-router-dom";
 
-const AuthRoute = ({ component: Component, isAuthenticated,  to, ...rest }) => (
+const AuthRoute = ({ component: Component, isAuthenticated, to, ...rest }) => (
   <Route
     {...rest}
     render={props =>
@@ -14,7 +14,7 @@ const AuthRoute = ({ component: Component, isAuthenticated,  to, ...rest }) => (
         <Redirect
           to={{
             pathname: to,
-            state: { redirect: props.location.pathname, isAuthenticated },
+            state: { redirect: props.location.pathname, isAuthenticated }
           }}
         />
       )
@@ -26,11 +26,11 @@ AuthRoute.propTypes = {
   component: PropTypes.oneOfType([PropTypes.func, PropTypes.object]).isRequired,
   isAuthenticated: PropTypes.bool.isRequired,
   location: PropTypes.object,
-  to: PropTypes.string,
+  to: PropTypes.string
 };
 
 AuthRoute.defaultProps = {
-  to: '/',
+  to: "/"
 };
 
 export default AuthRoute;

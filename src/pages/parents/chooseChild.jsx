@@ -28,17 +28,17 @@ class ChooseChild extends React.PureComponent {
                 </div>
                 <div className="row">
                   <div className="col-12">
-                    <div class="boxes">
+                    <div className="boxes">
                           
-                      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <div class="box">
-                              <div class="divforimg">
+                      <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                        <div className="carousel-inner">
+                          <div className="carousel-item active">
+                            <div className="box">
+                              <div className="divforimg">
                                 <img src={johnnychild} alt=""/>
                               </div>
                               <h2>Emily’s Dreamschool</h2>
-                              <a href="#" class="selected">
+                              <a href="#" className="selected">
                                 <svg xmlns="http://www.w3.org/2000/svg"  width="13.754" height="13" viewBox="0 0 13.754 13">
                                   <g id="Group_800" data-name="Group 800" transform="translate(-939 -754)">
                                     <g id="Ellipse_1040" data-name="Ellipse 1040" transform="translate(939 754)" fill="none" stroke="" stroke-width="1.5">
@@ -51,12 +51,12 @@ class ChooseChild extends React.PureComponent {
                                 Selected
                               </a>
                             </div>
-                            <div class="box">
-                              <div class="divforimg">
+                            <div className="box">
+                              <div className="divforimg">
                                 <img src={jasminechild} alt=""/>
                               </div>
                               <h2>Jasmine Appleseed</h2>
-                              <a href="">
+                              <a href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg"  width="13.754" height="13" viewBox="0 0 13.754 13">
                                   <g id="Group_800" data-name="Group 800" transform="translate(-939 -754)">
                                     <g id="Ellipse_1040" data-name="Ellipse 1040" transform="translate(939 754)" fill="none" stroke="" stroke-width="1.5">
@@ -84,9 +84,9 @@ class ChooseChild extends React.PureComponent {
             <div className="row">
               <div className="col-md-12">
                 <div className="buttons">
-                  <a href="" class="nextbtn">SAVE</a>
-                  <Link to="/parents/interested-programs/new" class="savebtn">BACK</Link>
-                  <Link to="/parents/interested-programs/step3" class="savebtn">NEXT</Link>
+                  <a href="#" className="nextbtn">SAVE</a>
+                  <Link to="/parents/interested-programs/new" className="savebtn">BACK</Link>
+                  <Link to="/parents/interested-programs/step3" className="savebtn">NEXT</Link>
                 </div>
               </div>
             </div>

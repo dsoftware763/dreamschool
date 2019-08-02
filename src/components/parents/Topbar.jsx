@@ -32,7 +32,7 @@ const Topbar = () => {
 
           {/* <!-- Nav Item - Alerts --> */}
           <li className="nav-item dropdown no-arrow mx-1">
-            <a className="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link dropdown-toggle" href="" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src={noticon} alt=""/>
               <div className="bluecircletop2"></div>
 

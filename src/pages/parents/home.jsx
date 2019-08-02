@@ -19,7 +19,7 @@ const Parent = () => {
        <div className="col-md-12">
          <div className="orange section">
            <h4>PROGRAM</h4>
-           <a href="">
+           <a href="#">
              <div className="box boxorange">
                <h2>Interested Programs</h2>
 
@@ -33,7 +33,7 @@ const Parent = () => {
                <img src={arrowleftbox} className="arrowright" alt=""/>
              </div>
            </a>
-           <a href="">
+           <a href="#">
              <div className="box boxorange">
                <h2>Open Applications</h2>
 
@@ -120,7 +120,7 @@ const Parent = () => {
                </div>
              </div>
              <div className="tablebody">
-               <a href="">
+               <a href="#">
                  <div className="row">
                    <div className="col-lg-7">
                      <div className="row">
@@ -145,7 +145,7 @@ const Parent = () => {
                    </div>
                  </div>
                </a>
-               <a href="" className="overdue">
+               <a href="#" className="overdue">
                  <div className="row">
                    <div className="col-lg-7">
                      <div className="row">
@@ -170,7 +170,7 @@ const Parent = () => {
                    </div>
                  </div>
                </a>
-               <a href="" className="paid">
+               <a href="#" className="paid">
                  <div className="row">
                    <div className="col-lg-7">
                      <div className="row">

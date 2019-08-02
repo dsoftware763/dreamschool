@@ -5,33 +5,33 @@ class FillApplication extends React.PureComponent {
   render () {
     return (
       <div className="container-fluid new_application new_application_3">
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <h1>New Application</h1>
           </div>
         </div>
 			     
-      	<div class="cont">
-      		<div class="contbox">
-            <p class="nom">3</p>
-              <div class="header">
+      	<div className="cont">
+      		<div className="contbox">
+            <p className="nom">3</p>
+              <div className="header">
                 <h2>Fill in Application</h2>
               </div>
-              <div class="body">
-                <div class="row">
-                  <div class="col-md-7 col-lg-6">
+              <div className="body">
+                <div className="row">
+                  <div className="col-md-7 col-lg-6">
                     <h2>Program Plan</h2>
-                    <div class="boxwithcroll">
+                    <div className="boxwithcroll">
                       <h3>INFANTS</h3>
-                      <div class="controw">
-                        <div class="row">
-                          <div class="col-7">
+                      <div className="controw">
+                        <div className="row">
+                          <div className="col-7">
                             <h4>Plan A</h4>
                             <p><span>$125 / wk</span></p>
                             <p>6 days / wk, 10:00 AM - 5:00 PM</p>
                           </div>
-                          <div class="col-5 parent">
-                            <div class="selectdiv">
+                          <div className="col-5 parent">
+                            <div className="selectdiv">
                               <a href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg"  width="13.754" height="13" viewBox="0 0 13.754 13">
                                   <g id="Group_800" data-name="Group 800" transform="translate(-939 -754)">
@@ -48,16 +48,16 @@ class FillApplication extends React.PureComponent {
                           </div>
                         </div>
                       </div>
-                      <div class="controw">
-                        <div class="row">
-                          <div class="col-7">
+                      <div className="controw">
+                        <div className="row">
+                          <div className="col-7">
                             <h4>Plan A</h4>
                             <p><span>$125 / wk</span></p>
                             <p>6 days / wk, 10:00 AM - 5:00 PM</p>
                           </div>
-                          <div class="col-5 parent">
-                            <div class="selectdiv">
-                              <a href="#" class="selected">
+                          <div className="col-5 parent">
+                            <div className="selectdiv">
+                              <a href="#" className="selected">
                                 <svg xmlns="http://www.w3.org/2000/svg"  width="13.754" height="13" viewBox="0 0 13.754 13">
                                   <g id="Group_800" data-name="Group 800" transform="translate(-939 -754)">
                                     <g id="Ellipse_1040" data-name="Ellipse 1040" transform="translate(939 754)" fill="none" stroke="" stroke-width="1.5">
@@ -75,16 +75,16 @@ class FillApplication extends React.PureComponent {
                         </div>
                       </div>
                       <h3>TODDLERS</h3>
-                      <div class="controw">
-                        <div class="row">
-                          <div class="col-7">
+                      <div className="controw">
+                        <div className="row">
+                          <div className="col-7">
                             <h4>Plan A</h4>
                             <p><span>$125 / wk</span></p>
                             <p>6 days / wk, 10:00 AM - 5:00 PM</p>
                           </div>
-                          <div class="col-5 parent">
-                            <div class="selectdiv">
-                              <a href="#" class="selected">
+                          <div className="col-5 parent">
+                            <div className="selectdiv">
+                              <a href="#" className="selected">
                                 <svg xmlns="http://www.w3.org/2000/svg"  width="13.754" height="13" viewBox="0 0 13.754 13">
                                   <g id="Group_800" data-name="Group 800" transform="translate(-939 -754)">
                                     <g id="Ellipse_1040" data-name="Ellipse 1040" transform="translate(939 754)" fill="none" stroke="" stroke-width="1.5">
@@ -102,16 +102,16 @@ class FillApplication extends React.PureComponent {
                           </div>
                         </div>
                       </div>
-                      <div class="controw">
-                        <div class="row">
-                          <div class="col-7">
+                      <div className="controw">
+                        <div className="row">
+                          <div className="col-7">
                             <h4>Plan A</h4>
                             <p><span>$125 / wk</span></p>
                             <p>6 days / wk, 10:00 AM - 5:00 PM</p>
                           </div>
-                          <div class="col-5 parent">
-                            <div class="selectdiv">
-                              <a href="" class="selected">
+                          <div className="col-5 parent">
+                            <div className="selectdiv">
+                              <a href="#" className="selected">
                                 <svg xmlns="http://www.w3.org/2000/svg"  width="13.754" height="13" viewBox="0 0 13.754 13">
                                   <g id="Group_800" data-name="Group 800" transform="translate(-939 -754)">
                                     <g id="Ellipse_1040" data-name="Ellipse 1040" transform="translate(939 754)" fill="none" stroke="" stroke-width="1.5">
@@ -131,11 +131,11 @@ class FillApplication extends React.PureComponent {
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-5 col-lg-6">
-                    <div class="rightside">
-                      <div class="wraper">
+                  <div className="col-md-5 col-lg-6">
+                    <div className="rightside">
+                      <div className="wraper">
                         <h2>Days of the week</h2>
-                        <div class="select">
+                        <div className="select">
                           <img src={selectarrow} alt=""/>
                           <select>
                               <option value="0">Monday, Wednesday</option>
@@ -143,7 +143,7 @@ class FillApplication extends React.PureComponent {
                             </select>
                         </div>
                         <h2>Start Date</h2>
-                        <div class="select">
+                        <div className="select">
                           <img src={selectarrow} alt=""/>
                           <select>
                               <option value="0">September 20, 2019</option>
@@ -151,7 +151,7 @@ class FillApplication extends React.PureComponent {
                             </select>
                         </div>
                         <h2>End Date</h2>
-                        <div class="select">
+                        <div className="select">
                           <img src={selectarrow} alt=""/>
                           <select>
                               <option value="0">January 20, 2020</option>
@@ -164,12 +164,12 @@ class FillApplication extends React.PureComponent {
                       </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="buttons">
-                    <Link to="/parents/interested-programs/confirm" class="nextbtn">SAVE</Link>
-                    <Link to="/parents/interested-programs/choose-child" class="savebtn">BACK</Link>
-                    <Link to="/parents/interested-programs/confirm" class="savebtn">CONFIRM</Link>
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="buttons">
+                    <Link to="/parents/interested-programs/confirm" className="nextbtn">SAVE</Link>
+                    <Link to="/parents/interested-programs/choose-child" className="savebtn">BACK</Link>
+                    <Link to="/parents/interested-programs/confirm" className="savebtn">CONFIRM</Link>
                   </div>
                 </div>
               </div>

@@ -5,6 +5,7 @@ import AdminRoute from './routes/adminRoute';
 import AuthRoute from './routes/authRoute';
 import Admin from './pages/admin';
 import ParentLayout from './components/parents/ParentLayout';
+import EducatorLayout from './components/educator/EducatorLayout'
 import RoutePublic from './routes/routePublic';
 import Home from './pages/front/home';
 import About from './pages/front/about';
@@ -28,6 +29,12 @@ function App() {
               isAuthenticated={true}
               path="/parents"
               component={ParentLayout}
+            />
+           
+            <AuthRoute
+              isAuthenticated={true}
+              path="/educator"
+              component={EducatorLayout}
             />
             <RoutePublic
               isAuthenticated={false}

@@ -9,6 +9,7 @@ import RoutePublic from './routes/routePublic';
 import Home from './pages/front/home';
 import About from './pages/front/about';
 import Educator from './pages/front/educator';
+import Search from './pages/front/search';
 
 function App() {
   return (
@@ -44,6 +45,12 @@ function App() {
               path="/educator"
               exact
               component={Educator}
+            />
+            <RoutePublic
+              isAuthenticated={false}
+              path="/search"
+              exact
+              component={Search}
             />
 
             {/* <Route component={NotFound} /> */}

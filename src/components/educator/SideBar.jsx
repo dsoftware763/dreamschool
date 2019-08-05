@@ -20,6 +20,9 @@ import familyprofile from '../../assets/images/familyprofile.svg';
 import paymentmethods from '../../assets/images/paymentmethods.svg';
 import programsettings from '../../assets/images/programsettings.svg';
 import ProgramOperations from '../../assets/images/ProgramOperations.svg';
+import InterestedPrograms from '../../assets/images/InterestedPrograms.svg';
+import Enrollments from '../../assets/images/Enrollments.svg';
+import Profiles from '../../assets/images/Profiles.svg';
 
 const SideBar = () => {
     return (
@@ -54,8 +57,36 @@ const SideBar = () => {
                     <span>Program Operations</span>
                 </Link>
             </li>
-            <hr className="sidebar-divider my-0" />
 
+
+        <hr className="sidebar-divider my-0" />
+
+        {/* <!-- Heading --> */}
+      <div className="sidebar-heading">
+        FAMILIES
+      </div>
+
+      {/* <!-- Nav Item - Dashboard --> */}
+      <li className="nav-item active">
+        <Link className="nav-link" to="/educator/interested-programs">
+          <img src={InterestedPrograms} alt=""/>
+          <span>Interested Programs</span>
+        </Link>
+        <Link className="nav-link" to="/educator/family-profiles">
+          <img src={Profiles} alt=""/>
+          <span>Profiles</span>
+        </Link>
+        <Link className="nav-link" to="/educator/family-applications">
+          <img src={paymentmethods} alt=""/>
+          <span>Applications</span>
+        </Link>
+         <Link className="nav-link" to="/educator/family-enrollments">
+          <img src={Enrollments} alt=""/>
+          <span>Enrollments</span>
+        </Link>
+      </li>
+
+      <hr className="sidebar-divider my-0" />
 
         <div className="sidebar-heading">PROFILE</div>
 

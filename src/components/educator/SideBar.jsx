@@ -16,17 +16,79 @@ import FamilyPayments from "../../assets/images/FamilyPayments.svg"
 import PaymentSettings from "../../assets/images/PaymentSettings.svg"
 import ExpenseTracker from "../../assets/images/ExpenseTracker.svg"
 import LogoutBg from "../../assets/images/logoutbg.svg"
+import familyprofile from '../../assets/images/familyprofile.svg';
+import paymentmethods from '../../assets/images/paymentmethods.svg';
+import programsettings from '../../assets/images/programsettings.svg';
+import ProgramOperations from '../../assets/images/ProgramOperations.svg';
+import InterestedPrograms from '../../assets/images/InterestedPrograms.svg';
+import Enrollments from '../../assets/images/Enrollments.svg';
+import Profiles from '../../assets/images/Profiles.svg';
 
 const SideBar = () => {
     return (
         <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-            <a className="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+            <Link className="sidebar-brand d-flex align-items-center justify-content-center" to="/educator">
                 <img src={Logo} alt="" />
-            </a>
+            </Link>
 
             <hr className="sidebar-divider my-0" />
 
-            <div className="sidebar-heading">PROFILE</div>
+            {/* <!-- Heading --> */}
+            <div className="sidebar-heading">
+                ACCOUNT
+            </div> 
+
+            {/* <!-- Nav Item - Dashboard --> */}
+            <li className="nav-item active">
+                <Link className="nav-link" to="/educator/prescreening">
+                    <img src={familyprofile} alt=""/>
+                    <span>Pre-Screening</span>
+                </Link>       
+                <Link className="nav-link" to="/educator/applications">
+                    <img src={paymentmethods} alt=""/>
+                    <span>Applications</span>
+                </Link>      
+                <Link className="nav-link" to="/educator/program-settings">
+                    <img src={programsettings} alt=""/>
+                    <span>Program Settings</span>
+                </Link>
+                <Link className="nav-link" to="/educator/program-operations">
+                    <img src={ProgramOperations} alt=""/>
+                    <span>Program Operations</span>
+                </Link>
+            </li>
+
+
+        <hr className="sidebar-divider my-0" />
+
+        {/* <!-- Heading --> */}
+      <div className="sidebar-heading">
+        FAMILIES
+      </div>
+
+      {/* <!-- Nav Item - Dashboard --> */}
+      <li className="nav-item active">
+        <Link className="nav-link" to="/educator/interested-programs">
+          <img src={InterestedPrograms} alt=""/>
+          <span>Interested Programs</span>
+        </Link>
+        <Link className="nav-link" to="/educator/family-profiles">
+          <img src={Profiles} alt=""/>
+          <span>Profiles</span>
+        </Link>
+        <Link className="nav-link" to="/educator/family-applications">
+          <img src={paymentmethods} alt=""/>
+          <span>Applications</span>
+        </Link>
+         <Link className="nav-link" to="/educator/family-enrollments">
+          <img src={Enrollments} alt=""/>
+          <span>Enrollments</span>
+        </Link>
+      </li>
+
+      <hr className="sidebar-divider my-0" />
+
+        <div className="sidebar-heading">PROFILE</div>
 
             <li className="nav-item active">
                 <Link className="nav-link" to="/educator/my-applications">

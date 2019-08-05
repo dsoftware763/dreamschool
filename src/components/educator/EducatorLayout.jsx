@@ -12,9 +12,12 @@ import Attendance from "../../pages/educator/attendance";
 import MyEarnings from "../../pages/educator/myEarnings";
 import WeeklySlots from "../../pages/educator/weeklySlots";
 import Messaging from "../../pages/educator/messaging";
+import ProgramSettings from "../../pages/educator/programSettings";
+import FamilyProfiles from "../../pages/educator/familyProfiles";
 
 const EducatorLayout = props => {
   require("../admin/css/sb-admin-2.css");
+  require("../parents/css/parent_css.css");
   require("./css/educator.css");
 
   return (
@@ -68,16 +71,28 @@ const EducatorLayout = props => {
           <EducatorRoute
             educator={true}
             exact
+            path="/educator/program-settings"
+            component={ProgramSettings}
+          />
+          <EducatorRoute
+            educator={true}
+            exact
+            path="/educator/family-profiles"
+            component={FamilyProfiles}
+          />
+          <EducatorRoute
+            educator={true}
+            exact
             path="/educator/my-earnings"
             component={MyEarnings}
           />
-		  <EducatorRoute
+          <EducatorRoute
             educator={true}
             exact
             path="/educator/weekly-slots"
             component={WeeklySlots}
           />
-		  <EducatorRoute
+          <EducatorRoute
             educator={true}
             exact
             path="/educator/messaging"

@@ -129,6 +129,69 @@ const SideBar = (props) => {
             </> :<>
             <hr className="sidebar-divider my-0" />
 
+            <li className="nav-item active">
+                <Link className="nav-link" to="/educator/tour-requests">
+                    <img src={TourRequests} alt="" />
+                    <span>Tour Requests</span>
+                </Link>
+                <a className="nav-link" href="#">
+                    <img src={Applications} alt="" />
+                    <span>Applications</span>
+                </a>
+                <a className="nav-link" href="#">
+                    <img src={Connections} alt="" />
+                    <span>Connections</span>
+                </a>
+            </li>
+
+            <hr className="sidebar-divider my-0" />
+            
+            <div className="sidebar-heading">ENROLLMENT</div>
+
+            
+            <li className="nav-item active">
+                <Link className="nav-link" to="/educator/enrolled">
+                    <img src={Enrolled} alt="" />
+                    <span>Enrolled</span>
+                </Link>
+                <Link className="nav-link" to="/educator/attendance">
+                    <img src={Attendance} alt="" />
+                    <span>Attendance</span>
+                </Link>
+                <Link className="nav-link" to="/educator/weekly-slots">
+                    <img src={WeeklySlots} alt="" />
+                    <span>Weekly Slots</span>
+                </Link>
+            </li>
+
+            <hr className="sidebar-divider my-0" />
+
+            <div className="sidebar-heading">FINANCES</div>
+
+            <li className="nav-item active">
+                <Link className="nav-link" to="/educator/my-earnings">
+                    <img src={MyEarnings} alt="" />
+                    <span>My Earnings</span>
+                </Link>
+                <a className="nav-link" href="#">
+                    <img src={FamilyPayments} alt="" />
+                    <span>Family Payments</span>
+                </a>
+                <a className="nav-link" href="#">
+                    <img src={ExpenseTracker} alt="" />
+                    <span>Expense Tracker</span>
+                </a>
+                <a className="nav-link" href="#">
+                    <img src={PaymentSettings} alt="" />
+                    <span>Payment Settings</span>
+                </a>
+            </li>
+
+            <div className="logoutbtn">
+                <a href="#">Log Out</a>
+                <img src={LogoutBg} alt="" />
+            </div>
+            <hr className="sidebar-divider my-0" />
             <div className="sidebar-heading">PROFILE</div>
 
             <li className="nav-item active">

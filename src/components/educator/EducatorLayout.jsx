@@ -1,9 +1,9 @@
 import React from "react";
 import EducatorRoute from "../../routes/educatorRoute";
 import SideBar from "./SideBar";
-import TopBar from "./TopBar"
+import TopBar from "./TopBar";
 import Home from "../../pages/educator/home";
-import Enrolled from "../../pages/educator/enrolled"
+import Enrolled from "../../pages/educator/enrolled";
 import Milestones from "../../pages/educator/milestones";
 import MyApplication from "../../pages/educator/myApplications";
 import PricingPlans from "../../pages/educator/pricingPlans";
@@ -12,18 +12,20 @@ import Attendance from "../../pages/educator/attendance";
 import ProgramSettings from '../../pages/educator/programSettings';
 import FamilyProfiles from '../../pages/educator/familyProfiles';
 import Promotions from '../../pages/educator/promotions';
+import MyEarnings from "../../pages/educator/myEarnings";
+import WeeklySlots from "../../pages/educator/weeklySlots";
+import Messaging from "../../pages/educator/messaging";
+
 
 const EducatorLayout = props => {
-	
-	const {pathname} = props.location
+  const {pathname} = props.location
 	let admin = false
 	if(pathname === "/educator/family-profiles" || pathname === "/educator/program-settings" || pathname === "/educator/promotions") {
 		admin = true
 	}
-  require("../admin/css/sb-admin-2.css")
-  require("../parents/css/parent_css.css")
+  require("../admin/css/sb-admin-2.css");
+  require("../parents/css/parent_css.css");
   require("./css/educator.css");
-
 
   return (
     <div className="educator">
@@ -74,6 +76,24 @@ const EducatorLayout = props => {
 				  path="/educator/attendance"
 				  component={Attendance}
 			  />
+           <EducatorRoute
+            educator={true}
+            exact
+            path="/educator/my-earnings"
+            component={MyEarnings}
+          />
+          <EducatorRoute
+            educator={true}
+            exact
+            path="/educator/weekly-slots"
+            component={WeeklySlots}
+          />
+          <EducatorRoute
+            educator={true}
+            exact
+            path="/educator/messaging"
+            component={Messaging}
+            />
 			  <EducatorRoute
 				  educator={true}
 				  exact

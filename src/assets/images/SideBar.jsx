@@ -23,12 +23,6 @@ import ProgramOperations from '../../assets/images/ProgramOperations.svg';
 import InterestedPrograms from '../../assets/images/InterestedPrograms.svg';
 import Enrollments from '../../assets/images/Enrollments.svg';
 import Profiles from '../../assets/images/Profiles.svg';
-import Overview from '../../assets/images/Overview.svg';
-import EducatorPayouts from '../../assets/images/EducatorPayouts.svg';
-import Invoices from '../../assets/images/Invoices.svg';
-import Credits from '../../assets/images/Credits.svg';
-import Promotions from '../../assets/images/Promotions.svg';
-import DSfees from '../../assets/images/DSfees.svg';
 
 const SideBar = (props) => {
     const {admin} = props
@@ -105,7 +99,7 @@ const SideBar = (props) => {
          <span>Overview</span>
        </Link>
        <Link class="nav-link" to="/educator/payouts">
-         <img src={EducatorPayouts} alt=""/>
+         <img src={EducatorPayout} alt=""/>
          <span>Educator Payouts</span>
        </Link>
        <Link class="nav-link" to="/educator/invoices">
@@ -116,7 +110,7 @@ const SideBar = (props) => {
          <img src={Credits} alt=""/>
          <span>Credits </span>
        </Link>
-       <Link class="nav-link" to="/educator/promotions">
+       <Link class="nav-link" to="/educator/promotion">
          <img src={Promotions} alt=""/>
          <span>Promotions </span>
        </Link>

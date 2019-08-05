@@ -39,7 +39,7 @@ const ProgramSettings = () => {
                     <tr>
                       <th scope="row">Jane Michaels</th>
                       <td>5</td>
-                      <td><span class="orange">3/5</span></td>
+                      <td><span className="orange">3/5</span></td>
                       <td>Janice’s Dreamschool for…</td>
                       <td>Jan 5 2019</td>
                       <td>
@@ -49,7 +49,7 @@ const ProgramSettings = () => {
                     <tr>
                       <th scope="row">Jane Michaels</th>
                       <td>5</td>
-                      <td><span class="red">3/5</span></td>
+                      <td><span className="red">3/5</span></td>
                       <td>Janice’s Dreamschool for…</td>
                       <td>Jan 5 2019</td>
                       <td>
@@ -59,7 +59,7 @@ const ProgramSettings = () => {
                     <tr>
                       <th scope="row">Jane Michaels</th>
                       <td>5</td>
-                      <td><span class="green">3/5</span></td>
+                      <td><span className="green">3/5</span></td>
                       <td>Janice’s Dreamschool for…</td>
                       <td>Jan 5 2019</td>
                       <td>

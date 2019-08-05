@@ -11,8 +11,15 @@ import TourRequests from "../../pages/educator/tourRequests";
 import Attendance from "../../pages/educator/attendance";
 import ProgramSettings from '../../pages/educator/programSettings';
 import FamilyProfiles from '../../pages/educator/familyProfiles';
+import Promotions from '../../pages/educator/promotions';
 
 const EducatorLayout = props => {
+	
+	const {pathname} = props.location
+	let admin = false
+	if(pathname === "/educator/family-profiles" || pathname === "/educator/program-settings" || pathname === "/educator/promotions") {
+		admin = true
+	}
   require("../admin/css/sb-admin-2.css")
   require("../parents/css/parent_css.css")
   require("./css/educator.css");
@@ -21,7 +28,7 @@ const EducatorLayout = props => {
   return (
     <div className="educator">
 		
-		<SideBar />
+		<SideBar admin={admin}/>
       	<div id="content-wrapper" className="d-flex flex-column">
         	<div id="content">
 				<TopBar />
@@ -78,6 +85,12 @@ const EducatorLayout = props => {
 				  exact
 				  path="/educator/family-profiles"
 				  component={FamilyProfiles}
+			  />
+			  <EducatorRoute
+				  educator={true}
+				  exact
+				  path="/educator/promotions"
+				  component={Promotions}
 			  />
 			</div>
 		</div>

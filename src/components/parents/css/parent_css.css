@@ -4036,3 +4036,1537 @@
           font-style: 20px;
           color: #63ABE0;
           margin-right: 8px; }
+
+
+.admin .programsettings {
+  padding-left: 0px;
+  padding-right: 0; }
+  .admin .programsettings h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #042470;
+    text-align: left;
+    padding-left: 4rem;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: inline-block; }
+    .admin .programsettings h1 span {
+      font-size: 20px;
+      color: #575757; }
+  .admin .programsettings .forbtnapp {
+    text-align: left;
+    display: inline-block;
+    margin-left: 40px; }
+    .admin .programsettings .forbtnapp .newapplications {
+      margin-top: -3px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 18px;
+      color: #7EA1FF;
+      background: #fff;
+      border-radius: 15px;
+      padding: 6px 20px 6px 16px;
+      display: flex;
+      -webkit-transition: all .15s ease;
+      -moz-transition: all .15s ease;
+      -ms-transition: all .15s ease;
+      -o-transition: all .15s ease;
+      transition: all .15s ease; }
+      .admin .programsettings .forbtnapp .newapplications img {
+        margin-right: 15px;
+        margin-top: 2px; }
+    .admin .programsettings .forbtnapp .newapplications:hover {
+      opacity: 0.7;
+      text-decoration: none; }
+  .admin .programsettings .cont {
+    padding-left: 4rem;
+    padding-right: calc(4rem - 30px);
+    max-width: 2000px; }
+    .admin .programsettings .cont .whatisit {
+      margin-left: 10px;
+      position: relative; }
+      .admin .programsettings .cont .whatisit .box {
+        visibility: hidden;
+        opacity: 0;
+        left: 30px;
+        top: -10px;
+        position: absolute;
+        background: #fff;
+        padding: 15px;
+        padding-bottom: 10px;
+        -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.06);
+        -moz-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.06);
+        -webkit-transition: all .15s ease;
+        -moz-transition: all .15s ease;
+        -ms-transition: all .15s ease;
+        -o-transition: all .15s ease;
+        transition: all .15s ease; }
+        .admin .programsettings .cont .whatisit .box p {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 15px;
+          color: #919191;
+          margin: 0;
+          margin-bottom: 5px; }
+          .admin .programsettings .cont .whatisit .box p img {
+            margin-top: -2px;
+            margin-right: 5px; }
+    .admin .programsettings .cont .whatisit:hover .box {
+      opacity: 1;
+      visibility: visible; }
+    .admin .programsettings .cont .circle {
+      margin-right: 10px; }
+    .admin .programsettings .cont .ppimg {
+      margin-right: 10px;
+      margin-top: -3px; }
+    .admin .programsettings .cont .search {
+      text-align: left;
+      max-width: 417.53px;
+      display: block;
+      width: 100%;
+      padding: 15px;
+      padding-bottom: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #919191; }
+      .admin .programsettings .cont .search .input {
+        margin-bottom: 30px;
+        position: relative; }
+        .admin .programsettings .cont .search .input input {
+          background: transparent;
+          border: 1.7px solid #919191;
+          width: 100%;
+          padding-bottom: 10px;
+          background: #fff;
+          padding: 12px 20px;
+          border-radius: 7px; }
+        .admin .programsettings .cont .search .input input:focus {
+          outline: none; }
+        .admin .programsettings .cont .search .input button {
+          background: transparent;
+          border: 0;
+          position: absolute;
+          right: 10px;
+          margin-top: 11px; }
+        .admin .programsettings .cont .search .input button:focus {
+          outline: none; }
+    .admin .programsettings .cont .tablecont {
+      width: 100%;
+      display: block; }
+      .admin .programsettings .cont .tablecont ul {
+        margin: 0;
+        padding: 0;
+        white-space: nowrap; }
+        .admin .programsettings .cont .tablecont ul li {
+          display: inline-block;
+          margin-bottom: 9px;
+          margin-right: 15px;
+          z-index: 0; }
+          .admin .programsettings .cont .tablecont ul li a {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            color: #A3A3A3;
+            padding: 12px 20px;
+            background: #fff;
+            border-top-right-radius: 14px;
+            border-top-left-radius: 14px;
+            -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+            -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+            position: relative;
+            -webkit-transition: all .15s ease;
+            -moz-transition: all .15s ease;
+            -ms-transition: all .15s ease;
+            -o-transition: all .15s ease;
+            transition: all .15s ease; }
+          .admin .programsettings .cont .tablecont ul li a:hover {
+            text-decoration: none;
+            color: #000; }
+          .admin .programsettings .cont .tablecont ul li .foractive {
+            position: absolute;
+            right: -14px;
+            bottom: 0px;
+            position: absolute;
+            right: -34px;
+            display: none; }
+        .admin .programsettings .cont .tablecont ul .active {
+          margin-right: 21px;
+          padding-top: 10px; }
+          .admin .programsettings .cont .tablecont ul .active a {
+            padding: 20px 20px;
+            margin-top: -10px;
+            position: relative;
+            display: table;
+            margin-bottom: -25px;
+            color: #000; }
+          .admin .programsettings .cont .tablecont ul .active .foractive {
+            display: block; }
+      .admin .programsettings .cont .tablecont .numb {
+        text-align: right;
+        margin-bottom: 50px;
+        margin-top: 25px; }
+        .admin .programsettings .cont .tablecont .numb ul li {
+          margin-right: 0;
+          margin-left: 10px; }
+          .admin .programsettings .cont .tablecont .numb ul li a {
+            background: transparent;
+            box-shadow: none;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 29px;
+            color: #A3A3A3;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            display: block;
+            width: 29px;
+            height: 29px;
+            border-radius: 50%;
+            -webkit-transition: all .15s ease;
+            -moz-transition: all .15s ease;
+            -ms-transition: all .15s ease;
+            -o-transition: all .15s ease;
+            transition: all .15s ease; }
+          .admin .programsettings .cont .tablecont .numb ul li a:hover {
+            background: #343F64;
+            color: #fff;
+            opacity: 0.7; }
+        .admin .programsettings .cont .tablecont .numb ul .activeno a {
+          background: #343F64;
+          color: #fff; }
+      .admin .programsettings .cont .tablecont .table {
+        z-index: 1;
+        position: relative; }
+        .admin .programsettings .cont .tablecont .table thead {
+          background: #ECEFFA; }
+          .admin .programsettings .cont .tablecont .table thead th {
+            border: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 23px;
+            color: #000;
+            padding: 20px 40px 20px 40px;
+            white-space: nowrap; }
+            .admin .programsettings .cont .tablecont .table thead th img {
+              margin-left: 25px; }
+          .admin .programsettings .cont .tablecont .table thead th:first-child {
+            padding-left: 40px; }
+        .admin .programsettings .cont .tablecont .table tbody {
+          background: #fff; }
+          .admin .programsettings .cont .tablecont .table tbody th, .admin .programsettings .cont .tablecont .table tbody td {
+            border: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 23px;
+            color: #000000;
+            padding: 35px 40px 35px 40px;
+            white-space: nowrap;
+            border-bottom: 1px solid #E0E0E0; }
+            .admin .programsettings .cont .tablecont .table tbody th a, .admin .programsettings .cont .tablecont .table tbody td a {
+              font-family: 'Open Sans', sans-serif;
+              font-weight: 700;
+              font-size: 12px;
+              line-height: 23px;
+              color: #fff;
+              padding: 10px 20px;
+              border-radius: 24px;
+              background: #FF6763;
+              -webkit-transition: all .15s ease;
+              -moz-transition: all .15s ease;
+              -ms-transition: all .15s ease;
+              -o-transition: all .15s ease;
+              transition: all .15s ease; }
+            .admin .programsettings .cont .tablecont .table tbody th a:hover, .admin .programsettings .cont .tablecont .table tbody td a:hover {
+              background: #343F64;
+              text-decoration: none; }
+          .admin .programsettings .cont .tablecont .table tbody th:first-child {
+            padding-left: 40px; }
+          .admin .programsettings .cont .tablecont .table tbody td:last-child {
+            padding-right: 40px;
+            padding-left: 40px;
+            width: 165px; }
+          .admin .programsettings .cont .tablecont .table tbody tr:last-child th, .admin .programsettings .cont .tablecont .table tbody tr:last-child td {
+            border: 0; }
+          .admin .programsettings .cont .tablecont .table tbody tr:last-child th:first-child {
+            border-bottom-left-radius: 26px; }
+          .admin .programsettings .cont .tablecont .table tbody tr:last-child td:last-child {
+            border-bottom-right-radius: 26px; }
+          .admin .programsettings .cont .tablecont .table tbody tr:first-child th:first-child {
+            border-top-left-radius: 26px; }
+          .admin .programsettings .cont .tablecont .table tbody tr:first-child td:last-child {
+            border-top-right-radius: 26px; }
+
+@media (max-width: 1400px) {
+  .admin .programsettings h1 {
+    padding-left: 20px; }
+  .admin .programsettings .cont {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media (max-width: 992px) {
+  .admin .programsettings .cont .search .input input {
+    margin-bottom: 15px; }
+  .admin .programsettings .cont .search {
+    text-align: left; }
+  .admin .programsettings .cont .search .input {
+    display: inline-block; } }
+
+@media (max-width: 500px) {
+  .admin .programsettings h1 {
+    margin-bottom: 10px; }
+  .admin .programsettings .forbtnapp {
+    display: flex;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px; } }
+
+.admin .adminprofiles {
+  padding-left: 0px;
+  padding-right: 0; }
+  .admin .adminprofiles h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #042470;
+    text-align: left;
+    padding-left: 4rem;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: inline-block; }
+    .admin .adminprofiles h1 span {
+      font-size: 20px;
+      color: #575757; }
+  .admin .adminprofiles .forbtnapp {
+    text-align: left;
+    display: inline-block;
+    margin-left: 40px; }
+    .admin .adminprofiles .forbtnapp .newapplications {
+      margin-top: -3px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 18px;
+      color: #7EA1FF;
+      background: #fff;
+      border-radius: 15px;
+      padding: 6px 20px 6px 16px;
+      display: flex;
+      -webkit-transition: all .15s ease;
+      -moz-transition: all .15s ease;
+      -ms-transition: all .15s ease;
+      -o-transition: all .15s ease;
+      transition: all .15s ease; }
+      .admin .adminprofiles .forbtnapp .newapplications img {
+        margin-right: 15px;
+        margin-top: 2px; }
+    .admin .adminprofiles .forbtnapp .newapplications:hover {
+      opacity: 0.7;
+      text-decoration: none; }
+  .admin .adminprofiles .cont {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    max-width: calc(1180px + 8rem); }
+    .admin .adminprofiles .cont .whatisit {
+      margin-left: 10px;
+      position: relative; }
+      .admin .adminprofiles .cont .whatisit .box {
+        visibility: hidden;
+        opacity: 0;
+        left: 30px;
+        top: -10px;
+        position: absolute;
+        background: #fff;
+        padding: 15px;
+        padding-bottom: 10px;
+        -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.06);
+        -moz-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.06);
+        -webkit-transition: all .15s ease;
+        -moz-transition: all .15s ease;
+        -ms-transition: all .15s ease;
+        -o-transition: all .15s ease;
+        transition: all .15s ease; }
+        .admin .adminprofiles .cont .whatisit .box p {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 15px;
+          color: #919191;
+          margin: 0;
+          margin-bottom: 5px; }
+          .admin .adminprofiles .cont .whatisit .box p img {
+            margin-top: -2px;
+            margin-right: 5px; }
+    .admin .adminprofiles .cont .whatisit:hover .box {
+      opacity: 1;
+      visibility: visible; }
+    .admin .adminprofiles .cont .circle {
+      margin-right: 10px; }
+    .admin .adminprofiles .cont .ppimg {
+      margin-right: 10px;
+      margin-top: -3px; }
+    .admin .adminprofiles .cont .search {
+      text-align: right;
+      display: block;
+      width: 100%;
+      padding: 15px;
+      padding-bottom: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #919191;
+      max-width: 1050px; }
+      .admin .adminprofiles .cont .search .input {
+        margin-bottom: 30px;
+        position: relative; }
+        .admin .adminprofiles .cont .search .input input {
+          background: transparent;
+          border: 0;
+          border-bottom: 1px solid #A2A2A2;
+          width: 290px;
+          padding-bottom: 10px; }
+        .admin .adminprofiles .cont .search .input input:focus {
+          outline: none; }
+        .admin .adminprofiles .cont .search .input button {
+          background: transparent;
+          border: 0;
+          position: absolute;
+          right: 0; }
+        .admin .adminprofiles .cont .search .input button:focus {
+          outline: none; }
+    .admin .adminprofiles .cont .tablecont {
+      width: 100%;
+      display: block; }
+      .admin .adminprofiles .cont .tablecont ul {
+        margin: 0;
+        padding: 0;
+        white-space: nowrap; }
+        .admin .adminprofiles .cont .tablecont ul li {
+          display: inline-block;
+          margin-bottom: 9px;
+          margin-right: 15px;
+          z-index: 0; }
+          .admin .adminprofiles .cont .tablecont ul li a {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            color: #A3A3A3;
+            padding: 12px 20px;
+            background: #fff;
+            border-top-right-radius: 14px;
+            border-top-left-radius: 14px;
+            -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+            -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+            position: relative;
+            -webkit-transition: all .15s ease;
+            -moz-transition: all .15s ease;
+            -ms-transition: all .15s ease;
+            -o-transition: all .15s ease;
+            transition: all .15s ease; }
+          .admin .adminprofiles .cont .tablecont ul li a:hover {
+            text-decoration: none;
+            color: #000; }
+          .admin .adminprofiles .cont .tablecont ul li .foractive {
+            position: absolute;
+            right: -14px;
+            bottom: 0px;
+            position: absolute;
+            right: -34px;
+            display: none; }
+        .admin .adminprofiles .cont .tablecont ul .active {
+          margin-right: 21px;
+          padding-top: 10px; }
+          .admin .adminprofiles .cont .tablecont ul .active a {
+            padding: 20px 20px;
+            margin-top: -10px;
+            position: relative;
+            display: table;
+            margin-bottom: -25px;
+            color: #000; }
+          .admin .adminprofiles .cont .tablecont ul .active .foractive {
+            display: block; }
+      .admin .adminprofiles .cont .tablecont .numb {
+        text-align: right;
+        margin-bottom: 50px;
+        margin-top: 25px; }
+        .admin .adminprofiles .cont .tablecont .numb ul li {
+          margin-right: 0;
+          margin-left: 10px; }
+          .admin .adminprofiles .cont .tablecont .numb ul li a {
+            background: transparent;
+            box-shadow: none;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 29px;
+            color: #A3A3A3;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            display: block;
+            width: 29px;
+            height: 29px;
+            border-radius: 50%;
+            -webkit-transition: all .15s ease;
+            -moz-transition: all .15s ease;
+            -ms-transition: all .15s ease;
+            -o-transition: all .15s ease;
+            transition: all .15s ease; }
+          .admin .adminprofiles .cont .tablecont .numb ul li a:hover {
+            background: #7F9AFF;
+            color: #fff;
+            opacity: 0.7; }
+        .admin .adminprofiles .cont .tablecont .numb ul .activeno a {
+          background: #7F9AFF;
+          color: #fff; }
+      .admin .adminprofiles .cont .tablecont .table {
+        -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.05);
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.05);
+        z-index: 1;
+        position: relative; }
+        .admin .adminprofiles .cont .tablecont .table thead {
+          background: #7ea0ff;
+          background: -moz-linear-gradient(left, #7ea0ff 0%, #915aff 100%);
+          background: -webkit-gradient(left top, right top, color-stop(0%, #7ea0ff), color-stop(100%, #915aff));
+          background: -webkit-linear-gradient(left, #7ea0ff 0%, #915aff 100%);
+          background: -o-linear-gradient(left, #7ea0ff 0%, #915aff 100%);
+          background: -ms-linear-gradient(left, #7ea0ff 0%, #915aff 100%);
+          background: linear-gradient(to right, #7ea0ff 0%, #915aff 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ea0ff', endColorstr='#915aff', GradientType=1 ); }
+          .admin .adminprofiles .cont .tablecont .table thead th {
+            border: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 17px;
+            color: #FFFFFF;
+            padding: 20px 40px 20px 40px;
+            white-space: nowrap; }
+          .admin .adminprofiles .cont .tablecont .table thead th:first-child {
+            padding-left: 40px; }
+        .admin .adminprofiles .cont .tablecont .table tbody {
+          background: #fff; }
+          .admin .adminprofiles .cont .tablecont .table tbody th, .admin .adminprofiles .cont .tablecont .table tbody td {
+            border: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #000000;
+            padding: 35px 40px 35px 40px;
+            white-space: nowrap;
+            border-bottom: 1px solid #E0E0E0; }
+            .admin .adminprofiles .cont .tablecont .table tbody th a, .admin .adminprofiles .cont .tablecont .table tbody td a {
+              font-family: 'Open Sans', sans-serif;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 19px;
+              color: #000000;
+              background: transparent;
+              -webkit-transition: all .15s ease;
+              -moz-transition: all .15s ease;
+              -ms-transition: all .15s ease;
+              -o-transition: all .15s ease;
+              transition: all .15s ease; }
+            .admin .adminprofiles .cont .tablecont .table tbody th a:hover, .admin .adminprofiles .cont .tablecont .table tbody td a:hover {
+              text-decoration: none;
+              opacity: 0.6; }
+            .admin .adminprofiles .cont .tablecont .table tbody th .orange, .admin .adminprofiles .cont .tablecont .table tbody td .orange {
+              border-radius: 13px;
+              background: #FFA81F;
+              color: #fff;
+              max-width: 70px;
+              width: 100%;
+              display: block;
+              text-align: center;
+              padding: 5px;
+              margin-top: -5px; }
+            .admin .adminprofiles .cont .tablecont .table tbody th .red, .admin .adminprofiles .cont .tablecont .table tbody td .red {
+              border-radius: 13px;
+              background: #FF3B8E;
+              color: #fff;
+              max-width: 70px;
+              width: 100%;
+              display: block;
+              text-align: center;
+              padding: 5px;
+              margin-top: -5px; }
+            .admin .adminprofiles .cont .tablecont .table tbody th .green, .admin .adminprofiles .cont .tablecont .table tbody td .green {
+              border-radius: 13px;
+              background: #1BC88A;
+              color: #fff;
+              max-width: 70px;
+              width: 100%;
+              display: block;
+              text-align: center;
+              padding: 5px;
+              margin-top: -5px; }
+          .admin .adminprofiles .cont .tablecont .table tbody th:first-child {
+            padding-left: 40px; }
+          .admin .adminprofiles .cont .tablecont .table tbody td:last-child {
+            padding-right: 40px;
+            padding-left: 40px;
+            width: 165px; }
+          .admin .adminprofiles .cont .tablecont .table tbody tr:last-child th, .admin .adminprofiles .cont .tablecont .table tbody tr:last-child td {
+            border: 0; }
+
+@media (max-width: 1400px) {
+  .admin .adminprofiles h1 {
+    padding-left: 20px; }
+  .admin .adminprofiles .cont {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media (max-width: 992px) {
+  .admin .adminprofiles .cont .search .input input {
+    margin-bottom: 15px; }
+  .admin .adminprofiles .cont .search {
+    text-align: left; }
+  .admin .adminprofiles .cont .search .input {
+    display: inline-block; } }
+
+@media (max-width: 500px) {
+  .admin .adminprofiles h1 {
+    margin-bottom: 10px; }
+  .admin .adminprofiles .forbtnapp {
+    display: flex;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px; } }
+
+.admin .adminpromotion {
+  padding-left: 0px;
+  padding-right: 0; }
+  .admin .adminpromotion h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #042470;
+    text-align: left;
+    padding-left: 4rem;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: inline-block; }
+    .admin .adminpromotion h1 span {
+      font-size: 20px;
+      color: #575757; }
+  .admin .adminpromotion .forbtnapp {
+    text-align: left;
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: -10px; }
+    .admin .adminpromotion .forbtnapp .newapplications {
+      margin-top: -3px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 18px;
+      color: #7EA1FF;
+      background: #fff;
+      border-radius: 15px;
+      padding: 6px 20px 6px 16px;
+      display: flex;
+      -webkit-transition: all .15s ease;
+      -moz-transition: all .15s ease;
+      -ms-transition: all .15s ease;
+      -o-transition: all .15s ease;
+      transition: all .15s ease; }
+      .admin .adminpromotion .forbtnapp .newapplications img {
+        margin-right: 15px;
+        margin-top: 2px; }
+    .admin .adminpromotion .forbtnapp .newapplications:hover {
+      opacity: 0.7;
+      text-decoration: none; }
+  .admin .adminpromotion .cont {
+    padding-left: 4rem;
+    padding-right: calc(4rem - 30px);
+    max-width: 2000px; }
+    .admin .adminpromotion .cont .whatisit {
+      margin-left: 10px;
+      position: relative; }
+      .admin .adminpromotion .cont .whatisit .box {
+        visibility: hidden;
+        opacity: 0;
+        left: 30px;
+        top: -10px;
+        position: absolute;
+        background: #fff;
+        padding: 15px;
+        padding-bottom: 10px;
+        -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.06);
+        -moz-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.06);
+        -webkit-transition: all .15s ease;
+        -moz-transition: all .15s ease;
+        -ms-transition: all .15s ease;
+        -o-transition: all .15s ease;
+        transition: all .15s ease; }
+        .admin .adminpromotion .cont .whatisit .box p {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 15px;
+          color: #919191;
+          margin: 0;
+          margin-bottom: 5px; }
+          .admin .adminpromotion .cont .whatisit .box p img {
+            margin-top: -2px;
+            margin-right: 5px; }
+    .admin .adminpromotion .cont .whatisit:hover .box {
+      opacity: 1;
+      visibility: visible; }
+    .admin .adminpromotion .cont .circle {
+      margin-right: 10px; }
+    .admin .adminpromotion .cont .ppimg {
+      margin-right: 10px;
+      margin-top: -3px; }
+    .admin .adminpromotion .cont .search {
+      text-align: right;
+      display: block;
+      width: 100%;
+      padding: 15px;
+      padding-bottom: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #919191;
+      margin-top: -18px; }
+      .admin .adminpromotion .cont .search .input {
+        margin-bottom: 30px;
+        position: relative; }
+        .admin .adminpromotion .cont .search .input input {
+          background: transparent;
+          border: 0;
+          border-bottom: 1px solid #A2A2A2;
+          width: 290px;
+          padding-bottom: 10px; }
+        .admin .adminpromotion .cont .search .input input:focus {
+          outline: none; }
+        .admin .adminpromotion .cont .search .input button {
+          background: transparent;
+          border: 0;
+          position: absolute;
+          right: 0; }
+        .admin .adminpromotion .cont .search .input button:focus {
+          outline: none; }
+    .admin .adminpromotion .cont .tablecont {
+      width: 100%;
+      display: block; }
+      .admin .adminpromotion .cont .tablecont ul {
+        margin: 0;
+        padding: 0;
+        white-space: nowrap; }
+        .admin .adminpromotion .cont .tablecont ul li {
+          display: inline-block;
+          margin-bottom: 9px;
+          margin-right: 15px;
+          z-index: 0; }
+          .admin .adminpromotion .cont .tablecont ul li a {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            color: #A3A3A3;
+            padding: 12px 20px;
+            background: #fff;
+            border-top-right-radius: 14px;
+            border-top-left-radius: 14px;
+            -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+            -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+            position: relative;
+            -webkit-transition: all .15s ease;
+            -moz-transition: all .15s ease;
+            -ms-transition: all .15s ease;
+            -o-transition: all .15s ease;
+            transition: all .15s ease; }
+          .admin .adminpromotion .cont .tablecont ul li a:hover {
+            text-decoration: none;
+            color: #000; }
+          .admin .adminpromotion .cont .tablecont ul li .foractive {
+            position: absolute;
+            right: -14px;
+            bottom: 0px;
+            position: absolute;
+            right: -34px;
+            display: none; }
+        .admin .adminpromotion .cont .tablecont ul .active {
+          margin-right: 21px;
+          padding-top: 10px; }
+          .admin .adminpromotion .cont .tablecont ul .active a {
+            padding: 20px 20px;
+            margin-top: -10px;
+            position: relative;
+            display: table;
+            margin-bottom: -25px;
+            color: #000; }
+          .admin .adminpromotion .cont .tablecont ul .active .foractive {
+            display: block; }
+      .admin .adminpromotion .cont .tablecont .numb {
+        text-align: right;
+        margin-bottom: 50px;
+        margin-top: 25px; }
+        .admin .adminpromotion .cont .tablecont .numb ul li {
+          margin-right: 0;
+          margin-left: 15px; }
+          .admin .adminpromotion .cont .tablecont .numb ul li a {
+            background: transparent;
+            box-shadow: none;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 32px;
+            color: #A3A3A3;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            display: block;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            -webkit-transition: all .15s ease;
+            -moz-transition: all .15s ease;
+            -ms-transition: all .15s ease;
+            -o-transition: all .15s ease;
+            transition: all .15s ease; }
+          .admin .adminpromotion .cont .tablecont .numb ul li a:hover {
+            background: #7F9AFF;
+            color: #fff;
+            opacity: 0.7; }
+        .admin .adminpromotion .cont .tablecont .numb ul .activeno a {
+          background: #7F9AFF;
+          color: #fff; }
+      .admin .adminpromotion .cont .tablecont .table {
+        -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.05);
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.05);
+        z-index: 1;
+        position: relative; }
+        .admin .adminpromotion .cont .tablecont .table thead {
+          background: #7ea0ff;
+          background: -moz-linear-gradient(left, #7ea0ff 0%, #915aff 100%);
+          background: -webkit-gradient(left top, right top, color-stop(0%, #7ea0ff), color-stop(100%, #915aff));
+          background: -webkit-linear-gradient(left, #7ea0ff 0%, #915aff 100%);
+          background: -o-linear-gradient(left, #7ea0ff 0%, #915aff 100%);
+          background: -ms-linear-gradient(left, #7ea0ff 0%, #915aff 100%);
+          background: linear-gradient(to right, #7ea0ff 0%, #915aff 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ea0ff', endColorstr='#915aff', GradientType=1 ); }
+          .admin .adminpromotion .cont .tablecont .table thead th {
+            border: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 17px;
+            color: #FFFFFF;
+            padding: 20px 40px 20px 40px;
+            white-space: nowrap; }
+          .admin .adminpromotion .cont .tablecont .table thead th:first-child {
+            padding-left: 40px; }
+        .admin .adminpromotion .cont .tablecont .table tbody {
+          background: #fff; }
+          .admin .adminpromotion .cont .tablecont .table tbody th, .admin .adminpromotion .cont .tablecont .table tbody td {
+            border: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #000000;
+            padding: 35px 40px 35px 40px;
+            white-space: nowrap;
+            border-bottom: 1px solid #E0E0E0; }
+            .admin .adminpromotion .cont .tablecont .table tbody th a, .admin .adminpromotion .cont .tablecont .table tbody td a {
+              font-family: 'Open Sans', sans-serif;
+              font-weight: 700;
+              font-size: 10px;
+              line-height: 14px;
+              color: #fff;
+              padding: 10px 25px;
+              background: #9BB0EB;
+              -webkit-transition: all .15s ease;
+              -moz-transition: all .15s ease;
+              -ms-transition: all .15s ease;
+              -o-transition: all .15s ease;
+              transition: all .15s ease; }
+            .admin .adminpromotion .cont .tablecont .table tbody th a:hover, .admin .adminpromotion .cont .tablecont .table tbody td a:hover {
+              background: #915aff;
+              text-decoration: none; }
+          .admin .adminpromotion .cont .tablecont .table tbody th:first-child {
+            padding-left: 40px; }
+          .admin .adminpromotion .cont .tablecont .table tbody td:last-child {
+            padding-right: 40px;
+            padding-left: 40px;
+            width: 165px; }
+          .admin .adminpromotion .cont .tablecont .table tbody tr:last-child th, .admin .adminpromotion .cont .tablecont .table tbody tr:last-child td {
+            border: 0; }
+  .admin .adminpromotion .modal {
+    background: rgba(196, 196, 196, 0.32); }
+    .admin .adminpromotion .modal .modal-dialog {
+      max-width: 546px;
+      margin-top: 90px; }
+    .admin .adminpromotion .modal .modal-body {
+      padding: 20px 40px 35px; }
+    .admin .adminpromotion .modal .modal-header {
+      padding: 20px 21px 20px 40px; }
+    .admin .adminpromotion .modal p {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 40px;
+      color: #696969;
+      margin: 0; }
+    .admin .adminpromotion .modal .modal-header .close {
+      padding-top: 0px;
+      padding-right: 3px;
+      opacity: 1; }
+    .admin .adminpromotion .modal .modal-header .close:focus {
+      outline: none; }
+    .admin .adminpromotion .modal h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 23px;
+      color: #000000; }
+    .admin .adminpromotion .modal input {
+      width: 100%;
+      border: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      color: #696969;
+      padding: 9px 0px 10px 0px;
+      border-bottom: 1px solid #CBCBCB;
+      margin-bottom: 25px; }
+    .admin .adminpromotion .modal input:focus {
+      outline: none; }
+    .admin .adminpromotion .modal [type="date"] {
+      /* background: transparent url("../img/cali.svg") 97% 50% no-repeat; */
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #C4C4C4;
+      padding: 8px 0 10px 56px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      color: #000000;
+      width: 100%; }
+    .admin .adminpromotion .modal [type="date"]::-webkit-inner-spin-button {
+      display: none; }
+    .admin .adminpromotion .modal [type="date"]::-webkit-calendar-picker-indicator {
+      opacity: 0; }
+    .admin .adminpromotion .modal .fromda:before {
+      content: 'From:';
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      color: #696969;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 10px; }
+    .admin .adminpromotion .modal .toda:before {
+      content: 'To:';
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      color: #696969;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 10px; }
+    .admin .adminpromotion .modal .toda {
+      margin-bottom: 20px; }
+      .admin .adminpromotion .modal .toda [type="date"] {
+        padding: 8px 0 10px 35px; }
+    .admin .adminpromotion .modal select {
+      display: block;
+      border: 0;
+      border-radius: 4px;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      /* background: transparent url("../img/selectarrowpop.svg") 97% 55% no-repeat; */
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      border: 1px solid #C4C4C4;
+      line-height: normal;
+      color: #7B7B7B;
+      margin: 0;
+      padding: 10px;
+      margin-bottom: 20px; }
+    .admin .adminpromotion .modal select:focus {
+      outline: none; }
+    .admin .adminpromotion .modal .input1:before {
+      content: 'Dollars';
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      color: #Dollars;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 20px;
+      z-index: 0; }
+    .admin .adminpromotion .modal .input1 input {
+      padding-left: 90px;
+      position: relative;
+      z-index: 1;
+      background: transparent;
+      color: #000;
+      margin-bottom: 5px; }
+    .admin .adminpromotion .modal .input1 .unactive {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 4px; }
+    .admin .adminpromotion .modal .input1 .activepop {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 4px;
+      display: none; }
+    .admin .adminpromotion .modal .input2 input {
+      padding-left: 120px;
+      position: relative;
+      z-index: 1;
+      background: transparent;
+      color: #000; }
+    .admin .adminpromotion .modal .input2 .unactive {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 4px; }
+    .admin .adminpromotion .modal .input2 .activepop {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 4px;
+      display: none; }
+    .admin .adminpromotion .modal .input2:before {
+      content: 'Percentage';
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      color: #Dollars;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 20px;
+      z-index: 0; }
+    .admin .adminpromotion .modal .activeinput .activepop {
+      display: block; }
+    .admin .adminpromotion .modal textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #C4C4C4;
+      border-radius: 4px;
+      min-height: 150px;
+      max-width: 100%;
+      min-width: 100%;
+      margin-bottom: 20px; }
+    .admin .adminpromotion .modal textarea:focus {
+      outline: none; }
+    .admin .adminpromotion .modal .buttons {
+      text-align: right;
+      max-width: 1365px;
+      margin-bottom: 0px;
+      margin-top: 10px; }
+      .admin .adminpromotion .modal .buttons .nextbtn {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        color: #7EA1FF;
+        display: inline-block;
+        background: transparent;
+        border: 1px solid #7EA1FF;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-right: 6px; }
+      .admin .adminpromotion .modal .buttons a:hover {
+        text-decoration: none;
+        opacity: 0.7; }
+
+@media (max-width: 1400px) {
+  .admin .adminpromotion h1 {
+    padding-left: 20px; }
+  .admin .adminpromotion .cont {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media (max-width: 992px) {
+  .admin .adminpromotion .cont .search .input input {
+    margin-bottom: 15px; }
+  .admin .adminpromotion .cont .search {
+    text-align: left; }
+  .admin .adminpromotion .cont .search .input {
+    display: inline-block; } }
+
+@media (max-width: 500px) {
+  .admin .adminpromotion h1 {
+    margin-bottom: 10px; }
+  .admin .adminpromotion .forbtnapp {
+    display: flex;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px; } }
+
+.messages #wrapper #content-wrapper #content {
+  overflow: hidden; }
+
+.messagecenter .leftside {
+  width: 390px;
+  height: 100%;
+  background: #F4F6FF;
+  position: absolute;
+  top: 70px;
+  left: 0px; }
+
+.messagecenter .rightside {
+  width: 270px;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  top: 70px;
+  right: 0px; }
+
+.messagecenter .centerm {
+  position: absolute;
+  background: #ECEFFA;
+  height: calc(100% - 70px);
+  width: calc(100% - 660px);
+  top: 70px;
+  left: 390px; }
+  .messagecenter .centerm .paddingmsg {
+    padding-top: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: calc(100vh - 160px);
+    overflow-y: scroll;
+    min-height: 600px; }
+  .messagecenter .centerm ::-webkit-scrollbar-track {
+    -webkit-box-shadow: 0;
+    background-color: transparent; }
+  .messagecenter .centerm ::-webkit-scrollbar {
+    width: 3px;
+    background-color: transparent; }
+  .messagecenter .centerm ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0.4; }
+  .messagecenter .centerm .leftsidemsg {
+    max-width: 550px;
+    display: inline-block;
+    width: 100%; }
+    .messagecenter .centerm .leftsidemsg .divforimg {
+      position: absolute;
+      display: inline-block;
+      bottom: 0;
+      right: 10px; }
+      .messagecenter .centerm .leftsidemsg .divforimg .mincircle {
+        display: none;
+        width: 11px;
+        height: 11px;
+        background: #7643FF;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        right: 4px;
+        bottom: 3px; }
+    .messagecenter .centerm .leftsidemsg .activecircle .mincircle {
+      display: block; }
+    .messagecenter .centerm .leftsidemsg .msg p {
+      background: #7EA1FF;
+      color: #fff;
+      max-width: 503px;
+      display: inline-block;
+      padding: 23px;
+      border-radius: 12px;
+      font-size: 17px;
+      line-height: 24px;
+      margin: 0;
+      margin-top: 10px; }
+    .messagecenter .centerm .leftsidemsg .msg p:first-child {
+      margin-top: 25px; }
+    .messagecenter .centerm .leftsidemsg .msg .time {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 9px;
+      color: #454545;
+      padding: 0;
+      background: transparent;
+      position: absolute;
+      left: 15px;
+      bottom: -24px; }
+    .messagecenter .centerm .leftsidemsg .msg .leftmsgarrow {
+      position: absolute;
+      bottom: -1px;
+      left: 0px; }
+  .messagecenter .centerm .floatright {
+    text-align: right; }
+  .messagecenter .centerm .rightsidemsg {
+    max-width: 550px;
+    display: inline-block;
+    width: 100%; }
+    .messagecenter .centerm .rightsidemsg .divforimg {
+      position: absolute;
+      display: inline-block;
+      bottom: 0;
+      left: 10px; }
+      .messagecenter .centerm .rightsidemsg .divforimg .mincircle {
+        display: none;
+        width: 11px;
+        height: 11px;
+        background: #7643FF;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        left: 4px;
+        bottom: 3px; }
+    .messagecenter .centerm .rightsidemsg .activecircle .mincircle {
+      display: block; }
+    .messagecenter .centerm .rightsidemsg .msg {
+      text-align: right; }
+      .messagecenter .centerm .rightsidemsg .msg p {
+        background: #fff;
+        color: #000;
+        max-width: 503px;
+        display: inline-block;
+        padding: 23px;
+        border-radius: 12px;
+        font-size: 17px;
+        line-height: 24px;
+        margin: 0;
+        text-align: left;
+        margin-top: 10px; }
+      .messagecenter .centerm .rightsidemsg .msg p:first-child {
+        margin-top: 25px; }
+      .messagecenter .centerm .rightsidemsg .msg .time {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 9px;
+        color: #454545;
+        padding: 0;
+        background: transparent;
+        position: absolute;
+        right: 15px;
+        bottom: -24px; }
+      .messagecenter .centerm .rightsidemsg .msg .rightmsgarrow {
+        position: absolute;
+        bottom: 0px;
+        right: 0px; }
+  .messagecenter .centerm .timedate {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #C6C6C6;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px; }
+
+.messagecenter .upermenu {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  border-bottom: 1px solid #D5D5D5; }
+  .messagecenter .upermenu .leftm {
+    text-align: left; }
+    .messagecenter .upermenu .leftm a {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18px;
+      color: #000000;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: inline-block; }
+  .messagecenter .upermenu .rightm {
+    text-align: right; }
+    .messagecenter .upermenu .rightm a {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18px;
+      color: #000000;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: inline-block; }
+  .messagecenter .upermenu .active {
+    border-bottom: 3px solid #7EA1FF; }
+  .messagecenter .upermenu a {
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    -ms-transition: all .15s ease;
+    -o-transition: all .15s ease;
+    transition: all .15s ease; }
+    .messagecenter .upermenu a span {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 17px;
+      color: #fff;
+      width: 17px;
+      height: 17px;
+      background: #7EA1FF;
+      border-radius: 50%;
+      margin-right: 10px;
+      display: inline-block;
+      text-align: center; }
+  .messagecenter .upermenu a:hover {
+    opacity: 0.7;
+    text-decoration: none; }
+
+.messagecenter .search {
+  text-align: right;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  padding-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #919191; }
+  .messagecenter .search .input {
+    position: relative; }
+    .messagecenter .search .input input {
+      background: transparent;
+      border: 0;
+      width: 100%;
+      padding-bottom: 10px; }
+    .messagecenter .search .input input:focus {
+      outline: none; }
+    .messagecenter .search .input button {
+      background: transparent;
+      border: 0;
+      position: absolute;
+      right: -15px; }
+    .messagecenter .search .input button:focus {
+      outline: none; }
+  .messagecenter .search .select {
+    text-align: right;
+    position: relative;
+    margin-top: 11px; }
+    .messagecenter .search .select select {
+      display: inline-block;
+      border: 0;
+      border-radius: 5px;
+      -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      padding: 5px 30px 5px 11px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: normal;
+      color: #7EA1FF;
+      margin: 0;
+      border: #7EA1FF 1px solid;
+      border-radius: 0;
+      max-width: 120px;
+      background: #fff; }
+    .messagecenter .search .select .arrowdownselect {
+      position: absolute;
+      right: 10px;
+      top: 12px;
+      text-outline: 4px; }
+    .messagecenter .search .select select:focus {
+      outline: none; }
+
+.messagecenter .sendmsg {
+  text-align: right;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  padding-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #919191;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+  .messagecenter .sendmsg .input {
+    position: relative; }
+    .messagecenter .sendmsg .input input {
+      background: transparent;
+      border: 0;
+      width: 100%;
+      padding-bottom: 10px;
+      background: #fff;
+      border-radius: 8px;
+      border: 1px solid #C9C9C9;
+      font-size: 15px;
+      padding: 10px 25px;
+      margin: 0; }
+    .messagecenter .sendmsg .input input:focus {
+      outline: none; }
+    .messagecenter .sendmsg .input button {
+      background: transparent;
+      border: 0;
+      position: absolute;
+      right: 5px;
+      top: 8px; }
+    .messagecenter .sendmsg .input button:focus {
+      outline: none; }
+
+.messagecenter .msgs {
+  margin-top: 25px; }
+  .messagecenter .msgs h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    margin: 0; }
+  .messagecenter .msgs p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000;
+    margin: 0;
+    margin-top: -3px;
+    opacity: 0.8; }
+  .messagecenter .msgs .bolder {
+    font-weight: 700;
+    opacity: 1; }
+  .messagecenter .msgs h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 58px;
+    color: #000000;
+    margin: 0;
+    text-align: right; }
+  .messagecenter .msgs a {
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    -ms-transition: all .15s ease;
+    -o-transition: all .15s ease;
+    transition: all .15s ease; }
+  .messagecenter .msgs a:hover {
+    text-decoration: none;
+    background: #fff; }
+  .messagecenter .msgs .active {
+    background: #fff; }
+  .messagecenter .msgs .divforimg {
+    position: relative; }
+    .messagecenter .msgs .divforimg .mincircle {
+      display: none;
+      width: 11px;
+      height: 11px;
+      background: #7643FF;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      position: absolute;
+      right: 12px;
+      bottom: 3px; }
+  .messagecenter .msgs .activecircle .mincircle {
+    display: block; }
+  .messagecenter .msgs .opacitytime {
+    opacity: 0.4; }
+
+.messagecenter .imgrightside {
+  margin-top: 93px; }
+  .messagecenter .imgrightside img {
+    display: block;
+    margin: auto;
+    max-width: 100%; }
+  .messagecenter .imgrightside h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px; }
+  .messagecenter .imgrightside p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #4B4B4B;
+    text-align: center;
+    margin: 0;
+    margin-top: 5px; }
+
+.messagecenter .desc {
+  margin-top: 70px; }
+  .messagecenter .desc p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    border-bottom: 0.6px solid #D6D6D6;
+    padding-left: 29px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0; }
+  .messagecenter .desc span {
+    color: #777777; }
+  .messagecenter .desc p:last-child {
+    border: 0; }
+
+@media (max-width: 1400px) {
+  .messagecenter .rightside {
+    display: none; }
+  .messagecenter .centerm {
+    width: calc(100% - 392px); } }
+
+@media (max-width: 1200px) {
+  .messagecenter .upermenu {
+    display: none; }
+  .messagecenter .search2 {
+    display: none; }
+  .messagecenter .leftside {
+    max-width: 100px;
+    overflow: hidden; }
+    .messagecenter .leftside a {
+      min-width: 340px; }
+  .messagecenter .centerm {
+    width: calc(100% - 100px);
+    left: 100px; } }
+
+@media (max-width: 772px) {
+  .messagecenter .centerm .paddingmsg {
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px; }
+  .messagecenter .centerm .leftsidemsg .msg p, .messagecenter .centerm .rightsidemsg .msg p {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 12px; } }
+
+@media (max-width: 420px) {
+  .messagecenter .centerm .paddingmsg {
+    overflow-x: hidden; } }

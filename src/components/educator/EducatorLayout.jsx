@@ -9,9 +9,11 @@ import MyApplication from "../../pages/educator/myApplications";
 import PricingPlans from "../../pages/educator/pricingPlans";
 import TourRequests from "../../pages/educator/tourRequests";
 import Attendance from "../../pages/educator/attendance";
+import ProgramSettings from '../../pages/educator/programSettings';
 
 const EducatorLayout = props => {
   require("../admin/css/sb-admin-2.css")
+  require("../parents/css/parent_css.css")
   require("./css/educator.css");
 
 
@@ -63,6 +65,12 @@ const EducatorLayout = props => {
 				  exact
 				  path="/educator/attendance"
 				  component={Attendance}
+			  />
+			  <EducatorRoute
+				  educator={true}
+				  exact
+				  path="/educator/program-settings"
+				  component={ProgramSettings}
 			  />
 			</div>
 		</div>

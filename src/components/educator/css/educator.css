@@ -6019,3 +6019,441 @@
     margin-top: 5px;
     position: relative;
     max-width: 138px; } }
+
+    .messages #wrapper #content-wrapper #content {
+      overflow: hidden; }
+    
+    .messagecenter .leftside {
+      width: 390px;
+      height: 100%;
+      background: #F4F6FF;
+      position: absolute;
+      top: 70px;
+      left: 0px; }
+    
+    .messagecenter .rightside {
+      width: 270px;
+      height: 100%;
+      background: #fff;
+      position: absolute;
+      top: 70px;
+      right: 0px; }
+    
+    .messagecenter .centerm {
+      position: absolute;
+      background: #ECEFFA;
+      height: calc(100% - 70px);
+      width: calc(100% - 660px);
+      top: 70px;
+      left: 390px; }
+      .messagecenter .centerm .paddingmsg {
+        padding-top: 25px;
+        padding-left: 60px;
+        padding-right: 60px;
+        height: calc(100vh - 160px);
+        overflow-y: scroll;
+        min-height: 600px; }
+      .messagecenter .centerm ::-webkit-scrollbar-track {
+        -webkit-box-shadow: 0;
+        background-color: transparent; }
+      .messagecenter .centerm ::-webkit-scrollbar {
+        width: 3px;
+        background-color: transparent; }
+      .messagecenter .centerm ::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0.4; }
+      .messagecenter .centerm .leftsidemsg {
+        max-width: 550px;
+        display: inline-block;
+        width: 100%; }
+        .messagecenter .centerm .leftsidemsg .divforimg {
+          position: absolute;
+          display: inline-block;
+          bottom: 0;
+          right: 10px; }
+          .messagecenter .centerm .leftsidemsg .divforimg .mincircle {
+            display: none;
+            width: 11px;
+            height: 11px;
+            background: #7643FF;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            position: absolute;
+            right: 4px;
+            bottom: 3px; }
+        .messagecenter .centerm .leftsidemsg .activecircle .mincircle {
+          display: block; }
+        .messagecenter .centerm .leftsidemsg .msg p {
+          background: #7EA1FF;
+          color: #fff;
+          max-width: 503px;
+          display: inline-block;
+          padding: 23px;
+          border-radius: 12px;
+          font-size: 17px;
+          line-height: 24px;
+          margin: 0;
+          margin-top: 10px; }
+        .messagecenter .centerm .leftsidemsg .msg p:first-child {
+          margin-top: 25px; }
+        .messagecenter .centerm .leftsidemsg .msg .time {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
+          font-size: 9px;
+          color: #454545;
+          padding: 0;
+          background: transparent;
+          position: absolute;
+          left: 15px;
+          bottom: -24px; }
+        .messagecenter .centerm .leftsidemsg .msg .leftmsgarrow {
+          position: absolute;
+          bottom: -1px;
+          left: 0px; }
+      .messagecenter .centerm .floatright {
+        text-align: right; }
+      .messagecenter .centerm .rightsidemsg {
+        max-width: 550px;
+        display: inline-block;
+        width: 100%; }
+        .messagecenter .centerm .rightsidemsg .divforimg {
+          position: absolute;
+          display: inline-block;
+          bottom: 0;
+          left: 10px; }
+          .messagecenter .centerm .rightsidemsg .divforimg .mincircle {
+            display: none;
+            width: 11px;
+            height: 11px;
+            background: #7643FF;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 4px;
+            bottom: 3px; }
+        .messagecenter .centerm .rightsidemsg .activecircle .mincircle {
+          display: block; }
+        .messagecenter .centerm .rightsidemsg .msg {
+          text-align: right; }
+          .messagecenter .centerm .rightsidemsg .msg p {
+            background: #fff;
+            color: #000;
+            max-width: 503px;
+            display: inline-block;
+            padding: 23px;
+            border-radius: 12px;
+            font-size: 17px;
+            line-height: 24px;
+            margin: 0;
+            text-align: left;
+            margin-top: 10px; }
+          .messagecenter .centerm .rightsidemsg .msg p:first-child {
+            margin-top: 25px; }
+          .messagecenter .centerm .rightsidemsg .msg .time {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            font-size: 9px;
+            color: #454545;
+            padding: 0;
+            background: transparent;
+            position: absolute;
+            right: 15px;
+            bottom: -24px; }
+          .messagecenter .centerm .rightsidemsg .msg .rightmsgarrow {
+            position: absolute;
+            bottom: 0px;
+            right: 0px; }
+      .messagecenter .centerm .timedate {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        color: #C6C6C6;
+        line-height: 25px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 15px; }
+    
+    .messagecenter .upermenu {
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 5px;
+      border-bottom: 1px solid #D5D5D5; }
+      .messagecenter .upermenu .leftm {
+        text-align: left; }
+        .messagecenter .upermenu .leftm a {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 18px;
+          color: #000000;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          display: inline-block; }
+      .messagecenter .upermenu .rightm {
+        text-align: right; }
+        .messagecenter .upermenu .rightm a {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 18px;
+          color: #000000;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          display: inline-block; }
+      .messagecenter .upermenu .active {
+        border-bottom: 3px solid #7EA1FF; }
+      .messagecenter .upermenu a {
+        -webkit-transition: all .15s ease;
+        -moz-transition: all .15s ease;
+        -ms-transition: all .15s ease;
+        -o-transition: all .15s ease;
+        transition: all .15s ease; }
+        .messagecenter .upermenu a span {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+          font-size: 11px;
+          line-height: 17px;
+          color: #fff;
+          width: 17px;
+          height: 17px;
+          background: #7EA1FF;
+          border-radius: 50%;
+          margin-right: 10px;
+          display: inline-block;
+          text-align: center; }
+      .messagecenter .upermenu a:hover {
+        opacity: 0.7;
+        text-decoration: none; }
+    
+    .messagecenter .search {
+      text-align: right;
+      display: block;
+      width: 100%;
+      padding: 15px;
+      padding-bottom: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 19px;
+      color: #919191; }
+      .messagecenter .search .input {
+        position: relative; }
+        .messagecenter .search .input input {
+          background: transparent;
+          border: 0;
+          width: 100%;
+          padding-bottom: 10px; }
+        .messagecenter .search .input input:focus {
+          outline: none; }
+        .messagecenter .search .input button {
+          background: transparent;
+          border: 0;
+          position: absolute;
+          right: -15px; }
+        .messagecenter .search .input button:focus {
+          outline: none; }
+      .messagecenter .search .select {
+        text-align: right;
+        position: relative;
+        margin-top: 11px; }
+        .messagecenter .search .select select {
+          display: inline-block;
+          border: 0;
+          border-radius: 5px;
+          -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          appearance: none;
+          padding: 5px 30px 5px 11px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: normal;
+          color: #7EA1FF;
+          margin: 0;
+          border: #7EA1FF 1px solid;
+          border-radius: 0;
+          max-width: 120px;
+          background: #fff; }
+        .messagecenter .search .select .arrowdownselect {
+          position: absolute;
+          right: 10px;
+          top: 12px;
+          text-outline: 4px; }
+        .messagecenter .search .select select:focus {
+          outline: none; }
+    
+    .messagecenter .sendmsg {
+      text-align: right;
+      display: block;
+      width: 100%;
+      padding: 15px;
+      padding-bottom: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 19px;
+      color: #919191;
+      margin-bottom: 20px;
+      padding-bottom: 20px; }
+      .messagecenter .sendmsg .input {
+        position: relative; }
+        .messagecenter .sendmsg .input input {
+          background: transparent;
+          border: 0;
+          width: 100%;
+          padding-bottom: 10px;
+          background: #fff;
+          border-radius: 8px;
+          border: 1px solid #C9C9C9;
+          font-size: 15px;
+          padding: 10px 25px;
+          margin: 0; }
+        .messagecenter .sendmsg .input input:focus {
+          outline: none; }
+        .messagecenter .sendmsg .input button {
+          background: transparent;
+          border: 0;
+          position: absolute;
+          right: 5px;
+          top: 8px; }
+        .messagecenter .sendmsg .input button:focus {
+          outline: none; }
+    
+    .messagecenter .msgs {
+      margin-top: 25px; }
+      .messagecenter .msgs h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 40px;
+        color: #000000;
+        margin: 0; }
+      .messagecenter .msgs p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        color: #000;
+        margin: 0;
+        margin-top: -3px;
+        opacity: 0.8; }
+      .messagecenter .msgs .bolder {
+        font-weight: 700;
+        opacity: 1; }
+      .messagecenter .msgs h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 58px;
+        color: #000000;
+        margin: 0;
+        text-align: right; }
+      .messagecenter .msgs a {
+        display: block;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        -webkit-transition: all .15s ease;
+        -moz-transition: all .15s ease;
+        -ms-transition: all .15s ease;
+        -o-transition: all .15s ease;
+        transition: all .15s ease; }
+      .messagecenter .msgs a:hover {
+        text-decoration: none;
+        background: #fff; }
+      .messagecenter .msgs .active {
+        background: #fff; }
+      .messagecenter .msgs .divforimg {
+        position: relative; }
+        .messagecenter .msgs .divforimg .mincircle {
+          display: none;
+          width: 11px;
+          height: 11px;
+          background: #7643FF;
+          border: 1px solid #fff;
+          border-radius: 50%;
+          position: absolute;
+          right: 12px;
+          bottom: 3px; }
+      .messagecenter .msgs .activecircle .mincircle {
+        display: block; }
+      .messagecenter .msgs .opacitytime {
+        opacity: 0.4; }
+    
+    .messagecenter .imgrightside {
+      margin-top: 93px; }
+      .messagecenter .imgrightside img {
+        display: block;
+        margin: auto;
+        max-width: 100%; }
+      .messagecenter .imgrightside h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        color: #000000;
+        text-align: center;
+        margin: 0;
+        margin-top: 20px; }
+      .messagecenter .imgrightside p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: #4B4B4B;
+        text-align: center;
+        margin: 0;
+        margin-top: 5px; }
+    
+    .messagecenter .desc {
+      margin-top: 70px; }
+      .messagecenter .desc p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        border-bottom: 0.6px solid #D6D6D6;
+        padding-left: 29px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 0; }
+      .messagecenter .desc span {
+        color: #777777; }
+      .messagecenter .desc p:last-child {
+        border: 0; }
+    
+    @media (max-width: 1400px) {
+      .messagecenter .rightside {
+        display: none; }
+      .messagecenter .centerm {
+        width: calc(100% - 392px); } }
+    
+    @media (max-width: 1200px) {
+      .messagecenter .upermenu {
+        display: none; }
+      .messagecenter .search2 {
+        display: none; }
+      .messagecenter .leftside {
+        max-width: 100px;
+        overflow: hidden; }
+        .messagecenter .leftside a {
+          min-width: 340px; }
+      .messagecenter .centerm {
+        width: calc(100% - 100px);
+        left: 100px; } }
+    
+    @media (max-width: 772px) {
+      .messagecenter .centerm .paddingmsg {
+        padding-top: 25px;
+        padding-left: 40px;
+        padding-right: 40px; }
+      .messagecenter .centerm .leftsidemsg .msg p, .messagecenter .centerm .rightsidemsg .msg p {
+        font-size: 13px;
+        line-height: 18px;
+        padding: 12px; } }
+    
+    @media (max-width: 420px) {
+      .messagecenter .centerm .paddingmsg {
+        overflow-x: hidden; } }

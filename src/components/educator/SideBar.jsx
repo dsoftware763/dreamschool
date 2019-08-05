@@ -81,10 +81,10 @@ const SideBar = () => {
                     <img src={Attendance} alt="" />
                     <span>Attendance</span>
                 </Link>
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/educator/weekly-slots">
                     <img src={WeeklySlots} alt="" />
                     <span>Weekly Slots</span>
-                </a>
+                </Link>
             </li>
 
             <hr className="sidebar-divider my-0" />
@@ -92,10 +92,10 @@ const SideBar = () => {
             <div className="sidebar-heading">FINANCES</div>
 
             <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/educator/my-earnings">
                     <img src={MyEarnings} alt="" />
                     <span>My Earnings</span>
-                </a>
+                </Link>
                 <a className="nav-link" href="#">
                     <img src={FamilyPayments} alt="" />
                     <span>Family Payments</span>

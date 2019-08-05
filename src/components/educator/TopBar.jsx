@@ -25,7 +25,7 @@ const TopBar = () => {
         <li className="nav-item dropdown no-arrow mx-1">
           <a
             className="nav-link dropdown-toggle"
-            href=""
+            href="#"
             id="alertsDropdown"
             role="button"
             data-toggle="dropdown"
@@ -143,7 +143,7 @@ const TopBar = () => {
         <li className="nav-item dropdown no-arrow">
           <a
             className="nav-link dropdown-toggle nameofc"
-            href="#"
+            href="/educator/messaging"
             id="userDropdown"
             role="button"
             data-toggle="dropdown"
@@ -187,7 +187,7 @@ const TopBar = () => {
             <img className="img-profile rounded-circle" src={keisha} />
             <div className="bluecircle" />
             <span className="mr-2 d-none d-lg-inline text-gray-600 small">
-              Emily Booth
+            Keisha Thompson
             </span>
           </a>
         </li>

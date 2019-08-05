@@ -77,10 +77,10 @@ const SideBar = () => {
                     <img src={Enrolled} alt="" />
                     <span>Enrolled</span>
                 </Link>
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/educator/attendance">
                     <img src={Attendance} alt="" />
                     <span>Attendance</span>
-                </a>
+                </Link>
                 <a className="nav-link" href="#">
                     <img src={WeeklySlots} alt="" />
                     <span>Weekly Slots</span>
